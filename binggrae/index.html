@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빙그레 메인</title>
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header_logo">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="빙그레 로고">
+            </a>
+        </h1>
+        <button class="hamburger" type="button" aria-label="전체 메뉴 열기">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M3.75 15H26.25M3.75 7.5H26.25M3.75 22.5H26.25"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+
+        <div class="header_inner">
+            <nav class="top_menu">
+                <div class="main_menu">
+                    <a class="company">company</a>
+                    <div class="sub_menu">
+                        <a class="company_overview">회사개요</a>
+                        <a class="management_philosophy">경영이념</a>
+                        <a class="history">연혁</a>
+                        <a class="our_business">사업분야</a>
+                        <a class="global_bingrae">글로벌 빙그레</a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a href="./products.html" class="products">products</a>
+                    <div class="sub_menu">
+                        <a href="./products.html" class="new_product">신제품</a>
+                        <a href="./products.html" class="category">제품 카테고리</a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a class="binggrae">binggrae</a>
+                    <div class="sub_menu">
+                        <a class="brand_history">브랜드 히스토리</a>
+                        <a class="binggrae_style">빙그레다움</a>
+                        <a href="./binggrae.html" class="todays_binggrae">
+                            오늘의 빙그레
+                        </a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a class="sustainbility">sustainability</a>
+
+                    <div class="sub_menu">
+                        <a class="environment_safety_health">ESH 체계</a>
+                        <a class="environmental_management">환경경영</a>
+                        <a class="social_impact">사회적 가치</a>
+                        <a class="ethical_management">윤리 책임경영</a>
+                        <a class="reporting_policy">보고서 정책</a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a href="./news.html" class="news">news</a>
+                    <div class="sub_menu">
+                        <a href="./news.html" class="m_binggrae_news">
+                            빙그레 소식
+                        </a>
+                        <a class="announcement">공지사항</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="utility_menu">
+            <a>KR</a>
+            <a>ALL MENU +</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <video autoplay muted loop playsinline>
+                <source src="./video/main_banner_video_04.mp4" type="video/mp4">
+            </video>
+            <div class="banner_inner inner">
+                <div class="banner_contents">
+                    <a class="banner_button button_primary">
+                        제품 알아보기 <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.3536 4.03519C10.5488 3.83993 10.5488 3.52335 10.3536 3.32809L7.17157 0.146107C6.97631 -0.0491555 6.65973 -0.0491555 6.46447 0.146107C6.2692 0.341369 6.2692 0.657951 6.46447 0.853214L9.29289 3.68164L6.46447 6.51007C6.2692 6.70533 6.2692 7.02191 6.46447 7.21717C6.65973 7.41244 6.97631 7.41244 7.17157 7.21717L10.3536 4.03519ZM0 3.68164V4.18164H10V3.68164V3.18164H0V3.68164Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="product_category">
+            <div class="category_inner inner">
+                <div class="category_main_group">
+                    <div class="category_heading">
+                        <div class="category_text">
+                            <h2 class="category_title section_title">
+                                OUR BUSINESS
+                            </h2>
+                            <p class="description">
+                                익숙한 제품부터 새로운 취향까지,<br>
+                                빙그레의 다양한 맛을 만나보세요.
+                            </p>
+                        </div>
+                        <div class="category_more_wrap">
+                            <a class="category_all category_link">
+                                <p class="link_arrow">전체 9개 카테고리 보기</p>
+                                <svg width="17" height="15" viewBox="0 0 17 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.7071 8.07136C17.0976 7.68084 17.0976 7.04768 16.7071 6.65715L10.3431 0.29319C9.95262 -0.0973344 9.31946 -0.0973344 8.92893 0.29319C8.53841 0.683714 8.53841 1.31688 8.92893 1.7074L14.5858 7.36426L8.92893 13.0211C8.53841 13.4116 8.53841 14.0448 8.92893 14.4353C9.31946 14.8259 9.95262 14.8259 10.3431 14.4353L16.7071 8.07136ZM0 7.36426V8.36426H16V7.36426V6.36426H0V7.36426Z"
+                                        fill="black" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="category_main category_item">
+                        <a class="category_link">
+                            <h3 class="category_name_main category_name">ICE CREAM</h3>
+                            <svg width="41" height="15" viewBox="0 0 41 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M40.7071 8.07039C41.0976 7.67986 41.0976 7.0467 40.7071 6.65617L34.3431 0.292213C33.9526 -0.0983109 33.3195 -0.0983109 32.9289 0.292213C32.5384 0.682738 32.5384 1.3159 32.9289 1.70643L38.5858 7.36328L32.9289 13.0201C32.5384 13.4107 32.5384 14.0438 32.9289 14.4343C33.3195 14.8249 33.9526 14.8249 34.3431 14.4343L40.7071 8.07039ZM0 7.36328V8.36328H40V7.36328V6.36328H0V7.36328Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                        <p class="item_description">달콤하고 시원한 즐거움을 만나보세요.</p>
+                        <figure class="item_melona">
+                            <img src="./images/icecream_melona.png" alt="메로나">
+                        </figure>
+                        <figure class="item_samanco">
+                            <img src="./images/icecream_samanco_tteok.png" alt="붕어싸만코">
+                        </figure>
+                    </div>
+                </div>
+                <div class="category_list">
+                    <div class="category_grid">
+                        <div class="category_dairy category_item">
+                            <a class="category_link">
+                                <h3 class="category_name_sub category_name">DAIRY</h3>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="white" />
+                                    <path
+                                        d="M27.7071 18.7071C28.0976 18.3166 28.0976 17.6834 27.7071 17.2929L21.3431 10.9289C20.9526 10.5384 20.3195 10.5384 19.9289 10.9289C19.5384 11.3195 19.5384 11.9526 19.9289 12.3431L25.5858 18L19.9289 23.6569C19.5384 24.0474 19.5384 24.6805 19.9289 25.0711C20.3195 25.4616 20.9526 25.4616 21.3431 25.0711L27.7071 18.7071ZM7 18V19H27V18V17H7V18Z"
+                                        fill="black" />
+                                </svg>
+                            </a>
+                            <p class="item_description">매일 가까이에서<br class="pc_br">
+                                만나는 부드러운 맛.
+                            </p>
+                            <figure class="item_banana">
+                                <img src="./images/dairy_banana_milk.png" alt="바나나우유">
+                            </figure>
+                        </div>
+                        <div class="category_yogurt category_item">
+                            <a class="category_link">
+                                <h3 class="category_name_sub category_name">YOGURT</h3>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="white" />
+                                    <path
+                                        d="M27.7071 18.7071C28.0976 18.3166 28.0976 17.6834 27.7071 17.2929L21.3431 10.9289C20.9526 10.5384 20.3195 10.5384 19.9289 10.9289C19.5384 11.3195 19.5384 11.9526 19.9289 12.3431L25.5858 18L19.9289 23.6569C19.5384 24.0474 19.5384 24.6805 19.9289 25.0711C20.3195 25.4616 20.9526 25.4616 21.3431 25.0711L27.7071 18.7071ZM7 18V19H27V18V17H7V18Z"
+                                        fill="black" />
+                                </svg>
+                            </a>
+                            <p class="item_description">가볍고 산뜻하게<br class="pc_br">
+                                즐기는 일상의 한입.
+                            </p>
+                            <figure class="item_greek">
+                                <img src="./images/new_yoplait_greek_almond_banana.png" alt="요거트그릭">
+                            </figure>
+                        </div>
+                        <div class="category_coffee category_item">
+                            <a class="category_link">
+                                <h3 class="category_name_sub category_name">COFFEE</h3>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="white" />
+                                    <path
+                                        d="M27.7071 18.7071C28.0976 18.3166 28.0976 17.6834 27.7071 17.2929L21.3431 10.9289C20.9526 10.5384 20.3195 10.5384 19.9289 10.9289C19.5384 11.3195 19.5384 11.9526 19.9289 12.3431L25.5858 18L19.9289 23.6569C19.5384 24.0474 19.5384 24.6805 19.9289 25.0711C20.3195 25.4616 20.9526 25.4616 21.3431 25.0711L27.7071 18.7071ZM7 18V19H27V18V17H7V18Z"
+                                        fill="black" />
+                                </svg>
+                            </a>
+                            <p class="item_description">간편하게 즐기는<br class="pc_br">
+                                커피 한 잔.
+                            </p>
+                            <figure class="item_acafela">
+                                <img src="./images/coffee_acafela_240.png" alt="아카페라">
+                            </figure>
+                        </div>
+                        <div class="category_beverage category_item">
+                            <a class="category_link">
+                                <h3 class="category_name_sub category_name">BEVERAGE</h3>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="white" />
+                                    <path
+                                        d="M27.7071 18.7071C28.0976 18.3166 28.0976 17.6834 27.7071 17.2929L21.3431 10.9289C20.9526 10.5384 20.3195 10.5384 19.9289 10.9289C19.5384 11.3195 19.5384 11.9526 19.9289 12.3431L25.5858 18L19.9289 23.6569C19.5384 24.0474 19.5384 24.6805 19.9289 25.0711C20.3195 25.4616 20.9526 25.4616 21.3431 25.0711L27.7071 18.7071ZM7 18V19H27V18V17H7V18Z"
+                                        fill="black" />
+                                </svg>
+                            </a>
+                            <p class="item_description">상큼한 과일을<br class="pc_br">
+                                시원하게 즐겨보세요.
+                            </p>
+                            <figure class="item_ttaom">
+                                <img src="./images/beverage_ttaom.png" alt="따옴">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured_products featured_products_banana">
+            <div class="featured_inner inner">
+                <div class="featured_top">
+                    <div class="featured_heading">
+                        <h2 class="category_title section_title">
+                            NEW & FEATURED <br class="mb_br">
+                            PRODUCTS
+                        </h2>
+                        <p class="description">
+                            오늘은 어떤 맛을 만나볼까요?
+                        </p>
+                    </div>
+                    <div class="featured_tabs">
+                        <p class="featured_deco">NEW</p>
+                        <button class="featured_tab button_outline featured_tab_banana active">바나나 우유</button>
+                        <button class="featured_tab button_outline featured_tab_melona">메로나</button>
+                        <button class="featured_tab button_outline featured_tab_samanco">붕어 싸만코</button>
+                        <button class="featured_tab button_outline featured_tab_almond">그릭 아몬드바나나</button>
+                    </div>
+                    <div class="featured_panel active">
+                        <div class="featured_content">
+                            <div class="featured_text">
+                                <h2 class="featured_title">
+                                    익숙해서 더 <span class="featured_span featured_span_banana"><br class="mb_br">
+                                        반가운</span><br>
+                                    바나나맛 우유
+                                </h2>
+                                <p class="description">
+                                    달콤하고 부드러운 풍미를<br>
+                                    바나나맛우유로 달콤하게 즐겨보세요.
+                                </p>
+                                <a class="featured_button button_primary featured_button_banana">
+                                    제품 알아보기
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.3536 4.03519C15.5488 3.83993 15.5488 3.52335 15.3536 3.32809L12.1716 0.146107C11.9763 -0.0491555 11.6597 -0.0491555 11.4645 0.146107C11.2692 0.341369 11.2692 0.657951 11.4645 0.853214L14.2929 3.68164L11.4645 6.51007C11.2692 6.70533 11.2692 7.02191 11.4645 7.21717C11.6597 7.41244 11.9763 7.41244 12.1716 7.21717L15.3536 4.03519ZM0 3.68164V4.18164H15V3.68164V3.18164H0V3.68164Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <figure class="featured_banana featured_visual">
+                                <img src="./images/featured_banana_milk.png" alt="바나나맛우유 제품 이미지">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="featured_panel">
+                        <div class="featured_content">
+                            <div class="featured_text">
+                                <h2 class="featured_title">
+                                    익숙해서 더 <span class="featured_span featured_span_melona"><br class="mb_br">
+                                        시원한</span><br>
+                                    메로나
+                                </h2>
+                                <p class="description">
+                                    부드러운 달콤함과 시원한 한입을<br>
+                                    메로나로 가볍게 즐겨보세요.
+                                </p>
+                                <a class="featured_button button_primary featured_button_melona">
+                                    제품 알아보기
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.3536 4.03519C15.5488 3.83993 15.5488 3.52335 15.3536 3.32809L12.1716 0.146107C11.9763 -0.0491555 11.6597 -0.0491555 11.4645 0.146107C11.2692 0.341369 11.2692 0.657951 11.4645 0.853214L14.2929 3.68164L11.4645 6.51007C11.2692 6.70533 11.2692 7.02191 11.4645 7.21717C11.6597 7.41244 11.9763 7.41244 12.1716 7.21717L15.3536 4.03519ZM0 3.68164V4.18164H15V3.68164V3.18164H0V3.68164Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <figure class="featured_melona featured_visual">
+                                <img src="./images/featured_melona.png" alt="메로나 제품 이미지">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="featured_panel">
+                        <div class="featured_content">
+                            <div class="featured_text">
+                                <h2 class="featured_title">
+                                    익숙해서 더 <span class="featured_span featured_span_samanco"><br class="mb_br">
+                                        든든한</span><br>
+                                    붕어싸만코
+                                </h2>
+                                <p class="description">
+                                    달콤한 팥과 부드러운 아이스크림을<br>
+                                    붕어싸만코로 한입 가득 즐겨보세요.
+                                </p>
+                                <a class="featured_button button_primary featured_button_samanco">
+                                    제품 알아보기
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.3536 4.03519C15.5488 3.83993 15.5488 3.52335 15.3536 3.32809L12.1716 0.146107C11.9763 -0.0491555 11.6597 -0.0491555 11.4645 0.146107C11.2692 0.341369 11.2692 0.657951 11.4645 0.853214L14.2929 3.68164L11.4645 6.51007C11.2692 6.70533 11.2692 7.02191 11.4645 7.21717C11.6597 7.41244 11.9763 7.41244 12.1716 7.21717L15.3536 4.03519ZM0 3.68164V4.18164H15V3.68164V3.18164H0V3.68164Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <figure class="featured_samanco_tteok featured_visual">
+                                <img src="./images/featured_samanco_tteok.png" alt="붕어싸만코 제품 이미지">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="featured_panel">
+                        <div class="featured_content">
+                            <div class="featured_text">
+                                <h2 class="featured_title">
+                                    익숙해서 더 <span class="featured_span featured_span_almond"><br class="mb_br">
+                                        고소한</span><br>
+                                    그릭 아몬드바나나
+                                </h2>
+                                <p class="description">
+                                    아몬드와 바나나가 어우러진<br>
+                                    산뜻하고 고소한 그릭요거트
+                                </p>
+                                <a class="featured_button button_primary featured_button_almond">
+                                    제품 알아보기
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.3536 4.03519C15.5488 3.83993 15.5488 3.52335 15.3536 3.32809L12.1716 0.146107C11.9763 -0.0491555 11.6597 -0.0491555 11.4645 0.146107C11.2692 0.341369 11.2692 0.657951 11.4645 0.853214L14.2929 3.68164L11.4645 6.51007C11.2692 6.70533 11.2692 7.02191 11.4645 7.21717C11.6597 7.41244 11.9763 7.41244 12.1716 7.21717L15.3536 4.03519ZM0 3.68164V4.18164H15V3.68164V3.18164H0V3.68164Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <figure class="featured_greek_almond_banana featured_visual">
+                                <img src="./images/featured_greek_almond_banana.png" alt="그릭 아몬드바나나 제품 이미지">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="binggrae_icons">
+            <div class="icons_inner inner">
+                <div class="icons_top">
+                    <div class="icons_header">
+                        <h2 class="icons_title section_title">
+                            BINGGRAE ICONS
+                        </h2>
+                        <p class="description">
+                            오랜 시간 사랑받아 온<br class="mb_br">
+                            빙그레의 대표 브랜드를 만나보세요.
+                        </p>
+                    </div>
+                    <a class="category_link">
+                        빙그레 브랜드 스토리 보기
+                        <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.7071 8.07136C17.0976 7.68084 17.0976 7.04768 16.7071 6.65715L10.3431 0.29319C9.95262 -0.0973344 9.31946 -0.0973344 8.92893 0.29319C8.53841 0.683714 8.53841 1.31688 8.92893 1.7074L14.5858 7.36426L8.92893 13.0211C8.53841 13.4116 8.53841 14.0448 8.92893 14.4353C9.31946 14.8259 9.95262 14.8259 10.3431 14.4353L16.7071 8.07136ZM0 7.36426V8.36426H16V7.36426V6.36426H0V7.36426Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="icons_list">
+                    <div class="icons_slide">
+                        <figure class="icons_image banana">
+                            <img src="./images/dairy_banana_milk.png" alt="바나나맛 우유">
+                        </figure>
+                        <div class="icons_item">
+                            <h3 class="icons_name">바나나맛 우유</h3>
+                            <p class="icons_year">1974</p>
+                            <p class="icons_desc">
+                                대표 음료 브랜드의 시작<br>
+                                오랜 시간 이어진 친숙함
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icons_slide">
+                        <figure class="icons_image together">
+                            <img src="./images/icecream_together_vanilla.png" alt="투게더">
+                        </figure>
+                        <div class="icons_item">
+                            <h3 class="icons_name">투게더</h3>
+                            <p class="icons_year">1974</p>
+                            <p class="icons_desc">
+                                프리미엄 아이스크림의 상징<br>
+                                세대를 이어온 대표 브랜드
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icons_slide">
+                        <figure class="icons_image samanco">
+                            <img src="./images/icecream_samanco_tteok.png" alt="붕어싸만코">
+                        </figure>
+
+                        <div class="icons_item">
+                            <h3 class="icons_name">붕어싸만코</h3>
+                            <p class="icons_year">1991</p>
+                            <p class="icons_desc">
+                                독창적인 형태의 아이스크림<br>
+                                익숙한 재미와 맛의 조합
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icons_slide">
+                        <figure class="icons_image melona">
+                            <img src="./images/icecream_melona.png" alt="메로나">
+                        </figure>
+
+                        <div class="icons_item">
+                            <h3 class="icons_name">메로나</h3>
+                            <p class="icons_year">1992</p>
+                            <p class="icons_desc">
+                                국민 아이스크림으로 성장<br>
+                                꾸준히 사랑받은 스테디셀러
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icons_slide">
+                        <figure class="icons_image danbaek">
+                            <img src="./images/new_the_danbaek.png" alt="더단백">
+                        </figure>
+
+                        <div class="icons_item">
+                            <h3 class="icons_name">더:단백</h3>
+                            <p class="icons_year">TODAY</p>
+                            <p class="icons_desc">
+                                건강·영양 제품군으로 확장<br>
+                                현재의 브랜드 변화를 상징
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sustainability">
+            <div class="sustainability_inner inner">
+                <div class="sustainability_contents">
+                    <div class="sustainability_header">
+                        <h2 class="sustainability_title section_title">
+                            SUSTAINABILITY
+                        </h2>
+                        <p class="description">
+                            더 나은 미래를 위한 빙그레의<br class="mb_br">
+                            책임 있는 실천
+                        </p>
+                    </div>
+                    <div class="sustainability_list">
+                        <div class="sustainability_eco sustainability_item">
+                            <div class="sustainability_text">
+                                <h3 class="sustainability_item_title">ECO-FRIENDLY</h3>
+                                <p class="sustainability_description">
+                                    환경을 위한<br>
+                                    지속가능한 변화
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sustainability_shared sustainability_item">
+                            <div class="sustainability_text">
+                                <h3 class="sustainability_item_title">SHARED VALUE</h3>
+                                <p class="sustainability_description">
+                                    사회와 함께하는<br>
+                                    지속가능한 성장
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sustainability_ethical sustainability_item">
+                            <div class="sustainability_text">
+                                <h3 class="ethical_title sustainability_item_title">
+                                    ETHICAL<br>
+                                    MANAGEMENT
+                                </h3>
+                                <p class="sustainability_description">
+                                    신뢰를 위한<br>
+                                    책임 있는 경영
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="sustainability_button button_outline">
+                        자세히 보기
+                        <svg width="19" height="12" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.3536 4.03519C10.5488 3.83993 10.5488 3.52335 10.3536 3.32809L7.17157 0.146107C6.97631 -0.0491555 6.65973 -0.0491555 6.46447 0.146107C6.2692 0.341369 6.2692 0.657951 6.46447 0.853214L9.29289 3.68164L6.46447 6.51007C6.2692 6.70533 6.2692 7.02191 6.46447 7.21717C6.65973 7.41244 6.97631 7.41244 7.17157 7.21717L10.3536 4.03519ZM0 3.68164V4.18164H10V3.68164V3.18164H0V3.68164Z"
+                                fill="#2E2A24" />
+                        </svg>
+                    </a>
+                </div>
+                <video autoplay muted loop playsinline class="sustainability_visual">
+                    <source src="./video/sustainability_mood.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="binggrae_news">
+            <div class="news_inner inner">
+                <div class="news_header">
+                    <div class="news_text">
+                        <h2 class="news_section_title section_title">
+                            BINGGRAE NEWS
+                        </h2>
+                        <p class="description">
+                            새로운 제품과 다양한 활동을 통해,<br>
+                            오늘의 빙그레를 계속 만들어갑니다.
+                        </p>
+                    </div>
+                    <a class="category_link">
+                        <p class="link_arrow">전체 뉴스 보기</p>
+                        <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.7071 8.07136C17.0976 7.68084 17.0976 7.04768 16.7071 6.65715L10.3431 0.29319C9.95262 -0.0973344 9.31946 -0.0973344 8.92893 0.29319C8.53841 0.683714 8.53841 1.31688 8.92893 1.7074L14.5858 7.36426L8.92893 13.0211C8.53841 13.4116 8.53841 14.0448 8.92893 14.4353C9.31946 14.8259 9.95262 14.8259 10.3431 14.4353L16.7071 8.07136ZM0 7.36426V8.36426H16V7.36426V6.36426H0V7.36426Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="news_contents news_pc">
+                    <div class="news_featured news_item">
+                        <figure class="news_visual">
+                            <img src="./images/news_granfondo.jpg" alt="‘2026 빙그레 그란폰도’ 개최">
+                        </figure>
+                        <a>
+                            <h3 class="news_item_title">
+                                ‘2026 빙그레 그란폰도’ 개최
+                            </h3>
+                            <time datetime="2026-07-31">2026. 07. 31</time>
+                        </a>
+                    </div>
+                    <div class="news_list">
+                        <div class="news_item">
+                            <figure class="news_visual">
+                                <img src="./images/news_together_navy.jpg" alt="3년 연속 해군본부에 아이스크림 ‘투게더’ 후원">
+                            </figure>
+                            <a>
+                                <h3 class="news_item_title">
+                                    3년 연속 해군본부에 아이스크림 ‘투게더’ 후원
+                                </h3>
+                                <time datetime="2026-07-31">2026. 07. 31</time>
+                            </a>
+                        </div>
+                        <div class="news_item">
+                            <figure class="news_visual">
+                                <img src="./images/news_fromnutri.jpg" alt="신제품 ‘프롬뉴트리 효소와 식이섬유 플러스 알파CD’ 출시">
+                            </figure>
+                            <a>
+                                <h3 class="news_item_title">
+                                    신제품 ‘프롬뉴트리 효소와 식이섬유 플러스 알파CD’ 출시
+                                </h3>
+                                <time datetime="2026-07-31">2026. 07. 31</time>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news_slider news_mobile">
+                    <div class="news_wrap">
+                        <div class="news_featured news_item">
+                            <figure class="news_visual">
+                                <img src="./images/news_granfondo.jpg" alt="‘2026 빙그레 그란폰도’ 개최">
+                            </figure>
+                            <a>
+                                <h3 class="news_item_title">
+                                    ‘2026 빙그레 그란폰도’ 개최
+                                </h3>
+                                <time datetime="2026-07-31">2026. 07. 31</time>
+                            </a>
+                        </div>
+                        <div class="news_item">
+                            <figure class="news_visual">
+                                <img src="./images/news_together_navy_mobile.jpg" alt="3년 연속 해군본부에 아이스크림 ‘투게더’ 후원">
+                            </figure>
+                            <a>
+                                <h3 class="news_item_title">
+                                    3년 연속 해군본부에 아이스크림 ‘투게더’ 후원
+                                </h3>
+                                <time datetime="2026-07-31">2026. 07. 31</time>
+                            </a>
+                        </div>
+                        <div class="news_item">
+                            <figure class="news_visual">
+                                <img src="./images/news_fromnutri_mobile.jpg" alt="신제품 ‘프롬뉴트리 효소와 식이섬유 플러스 알파CD’ 출시">
+                            </figure>
+                            <a>
+                                <h3 class="news_item_title">
+                                    신제품 ‘프롬뉴트리 효소와 식이섬유 플러스 알파CD’ 출시
+                                </h3>
+                                <time datetime="2026-07-31">2026. 07. 31</time>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_wrap">
+                    <button class="news_button active">1</button>
+                    <button class="news_button">2</button>
+                    <button class="news_button">3</button>
+                </div>
+            </div>
+        </section>
+        <div class="corporate_links">
+            <div class="corporate_inner inner">
+                <nav class="corporate_wrap">
+                    <a>INVESTOR RELATIONS</a>
+                    <a>CAREERS</a>
+                    <a>CUSTOMER CENTER</a>
+                    <a>PURCHASE PORTAL</a>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_inner inner">
+            <div class="footer_logo">
+                <img src="./images/logo.svg" alt="빙그레 로고">
+            </div>
+            <nav class="footer_link">
+                <ul>
+                    <li class="footer_menu">
+                        <a>제품</a>
+                        <a>브랜드</a>
+                        <a>지속가능경영</a>
+                        <a>고객지원</a>
+                    </li>
+                    <li class="footer_info">
+                        <a>회사정보</a>
+                        <a>개인정보처리방침</a>
+                        <a>SNS</a>
+                    </li>
+                    <li class="footer_copyright">COPYRIGHT</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
