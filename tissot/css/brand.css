@@ -1,0 +1,477 @@
+section{
+    margin-bottom:150px;
+}
+
+h2{
+    font-size:60px;
+    text-align:center;
+}
+
+h3{
+    font-size:35px;
+}
+
+.body_text{
+    font-weight:500;
+}
+
+.content_title{
+    font-size:24px;
+}
+
+.caption{
+    font-size:16px;
+}
+
+/* 공통 끝 */
+
+#about{
+    margin-top:80px;
+}
+
+.about_h2{
+    font-size:64px;
+    margin:150px 0 20px 0;
+}
+
+.about_inner{
+    width:1420px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.about .content_title{
+    margin-bottom:10px;
+}
+
+/* about 끝 */
+
+.heritage_inner{
+    display:flex;
+    align-items:center;
+    gap:80px;
+    width:1420px;
+    margin:0 auto;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.heritage_img{
+    width:420px;
+    height:700px;
+    overflow: hidden;
+}
+
+.heritage_img img{
+    border-radius:200px;
+}
+
+.heritage_text .caption{
+    color: #666;
+    margin-bottom:6px;
+}
+
+.heritage_inner h3{
+    margin-bottom:24px;
+}
+
+/* heritage 끝 */
+
+.precision_inner{
+    display:flex;
+    gap:60px;
+    width:1420px;
+    margin:0 auto;
+    padding-top:40px;
+    align-items:center;
+}
+
+.precision_img{
+    width:665px;
+    height:700px;
+}
+
+#precision .main{
+    text-align:center;
+}
+
+.precision_text .caption{
+    margin-top:8px;
+}
+
+.precision_text h3{
+    margin-bottom:32px;
+}
+
+.precision_text>.body_text{
+    margin-top:16px;
+}
+
+/* precision 끝 */
+
+.featured_inner{
+    width:1420px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.featured .caption{
+    margin-bottom:60px;
+}
+
+.featured_wrap{
+    display:flex;
+    gap:35px;
+}
+
+.collection_img{
+    position:absolute;
+    left:27%;
+    top:3%;
+}
+
+.prx img{
+    width:213px;
+    height:380px;
+}
+
+.le_locle img{
+    width:214px;
+    height:377px;
+}
+
+.c_heritage img{
+    width:210px;
+    height:368px;
+}
+
+.featured .collection_card{
+    position:relative;
+    width:450px;
+    height:511px;
+    text-align:left;
+    color:#fff;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.featured .collection_card a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.featured .collection_card .content_title{
+    position:absolute;
+    left:30px;
+    bottom:90px;
+    font-weight:400;
+}
+
+.prx{
+    color:#333;
+}
+
+.featured .collection_card .body_text{
+    position:absolute;
+    left:30px;
+    bottom:30px;
+    font-weight:400;
+}
+
+.featured .collection_card.prx{
+    background-image: url("../img/collection_card_prx_bg.png");
+}
+
+.featured .collection_card.le_locle{
+    background-image: url("../img/collection_card_le_locle_bg.png");
+}
+
+.featured .collection_card.c_heritage{
+    background-image: url("../img/collection_card_heritage_bg.png");
+}
+
+.featured_button{
+    margin-top:30px;
+    padding:0;
+    background-color:transparent;
+    color:#333;
+}
+
+/* featured 끝 */
+
+.footer{
+    margin-top:150px;
+    height:260px;
+    background-color:#182638;
+    padding-top:80px;
+    color:#fff;
+}
+
+.footer_inner{
+    width:1420px;
+    height:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.footer_logo{
+    width:150px;
+    height:52px;
+}
+
+.footer_logo img{
+    height:100%;
+    object-fit:contain;
+}
+
+.footer_nav{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.footer_nav li:nth-child(2){
+    margin-left:200px;
+}
+
+.footer_policy{
+    display:flex;
+    gap:40px;
+    align-items:center;
+    margin-top:40px;
+}
+
+.footer_copy{
+    margin-left:auto;
+}
+
+@media all and (max-width:1279px) and (min-width:960px) {
+
+    section {
+        margin-bottom: 80px;
+    }
+
+    .about_inner,
+    .heritage_inner,
+    .precision_inner,
+    .featured_inner,
+    .footer_inner {
+        width: calc(100% - 80px);
+    }
+
+    .about_h2 {
+        font-size: 56px;
+        margin-top: 120px;
+    }
+
+    .heritage_inner {
+        gap: 50px;
+    }
+
+    .heritage_img {
+        width: 40%;
+        height: 600px;
+        flex-shrink: 0;
+    }
+
+    .heritage_img img{
+        height:100%;
+    }
+
+    .heritage_text {
+        width:40%;
+    }
+
+    .precision_inner {
+        gap: 40px;
+    }
+
+    .precision_img {
+        width: 50%;
+        height: 500px;
+    }
+
+    .precision_text {
+        flex: 1;
+    }
+
+    .featured_wrap {
+        gap: 24px;
+        
+    }
+
+    .featured .collection_card {
+        width: calc((100% - 48px) / 3);
+        height: 460px;
+        border-radius:24px;
+    }
+
+    .collection_img {
+        left: 50%;
+        top:5%;
+        transform: translateX(-50%);
+    }
+
+    .collection_img img{
+        width:105%;
+        height:auto;
+    }
+
+    .footer{
+        margin-top:100px;
+    }
+
+    .footer_nav{
+        gap:30px;
+    }
+
+    .footer_nav li:nth-child(2) {
+        margin-left: 80px;
+    }
+}
+
+@media all and (max-width: 959px) {
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .content_title {
+        font-size: 20px;
+    }
+
+    .body_text {
+        font-size: 16px;
+    }
+
+    .caption {
+        font-size: 14px;
+    }
+
+    /* 모바일 공통 설정 끝 */
+
+    #about {
+        margin-top: 40px;
+    }
+
+    .about_h2 {
+        font-size: 40px;
+        margin: 100px 0 20px;
+    }
+
+    .about_inner {
+        width: calc(100% - 40px);
+    }
+
+    /* 모바일 about 끝 */
+
+    .heritage_inner {
+        width: calc(100% - 40px);
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    .heritage_img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .heritage_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 200px;
+    }
+
+    .heritage_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .heritage_inner h3 {
+        margin-bottom: 20px;
+    }
+
+    /* 모바일 heritage 끝 */
+
+    #precision{
+        text-align:center;
+    }
+
+    .precision_inner{
+        width: calc(100% - 40px);
+        flex-direction:column;
+        gap:20px;
+        padding-top:20px;
+    }
+    
+    .precision_img {
+        width:350px;
+        height:auto;
+    }
+
+    .precision_text h3{
+        margin-bottom:20px;
+    }
+
+    /* 모바일 precision 끝 */
+
+    .featured_wrap{
+        flex-direction:column;
+    }
+
+    .featured_inner{
+        width: calc(100% - 40px);
+    }
+    .collection_img{
+        left:25%;
+    }
+
+    .featured .caption{
+        margin-bottom:30px;
+    }
+
+    .featured .collection_card{
+        width:100%;
+        border-radius:15px;
+    }
+
+    /* 모바일 featured 끝 */
+
+    .footer{
+        height:100%;
+        padding:30px 0;
+        margin-top:50px;
+    }
+
+    .footer_logo{
+        margin-bottom:20px;
+    }
+
+    footer .inner{
+        width:calc(100% - 10px);
+        flex-direction:column;
+    }
+
+    .footer_nav li:nth-child(2){
+        margin-left:0;
+    }
+
+    .footer_nav{
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+    }
+}
+    

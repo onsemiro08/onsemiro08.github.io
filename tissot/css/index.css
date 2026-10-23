@@ -1,0 +1,496 @@
+header,
+.banner,
+.service_visual,
+.footer {
+    color: white;
+}
+
+.banner,
+.technology_visual,
+.service_visual {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.technology_button,
+.banner_button {
+    margin-top: 40px;
+    color: #fff;
+    background-color: #C8102E;
+}
+
+.technology_button:hover,
+.banner_button:hover {
+    filter: brightness(0.85);
+}
+
+/* --------- 메인 공통 설정 끝 --------- */
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 900px;
+    background-image: url("../img/banner_main.jpg");
+    margin-top: 0;
+}
+
+.banner_title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* --------- 배너 끝 --------- */
+
+.collection {
+    margin: 120px 0;
+}
+
+.collection_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 40px;
+}
+
+.collection_list>a {
+    display: block;
+    width: calc((100% - 80px) / 3);
+}
+
+.collection .collection_card {
+    height: auto;
+    color: #333;
+    background: none;
+}
+
+.collection_card.clickable {
+    cursor: pointer;
+}
+
+.collection_card img {
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+    margin-bottom: 24px;
+}
+
+.collection_title {
+    font-size: 22px;
+}
+
+.collection_text,
+.collection_price {
+    color: #111;
+}
+
+.collection_type {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.best_label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    margin-bottom: 8px;
+
+    color: #c8102e;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.best_label::before {
+    content: "";
+    width: 2px;
+    height: 12px;
+    background-color: #c8102e;
+}
+
+/* --------- 콜렉션 끝 --------- */
+
+.technology {
+    margin-bottom: 120px;
+}
+
+.technology_visual {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/section_technology_banner.jpg");
+    color: #fff;
+}
+
+/* --------- 테크놀로지 끝 --------- */
+
+.product {
+    min-height: 472px;
+    margin-bottom: 120px;
+}
+
+.product_visual {
+    background-color: #F5F1E8;
+}
+
+.product_inner {
+    width: 1420px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product_wrap {
+    overflow: hidden;
+}
+
+.slider_move {
+    display: flex;
+    width: 4260px;
+    transition: .5s ease;
+
+}
+
+.product_slider {
+    width: 1420px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.product_img {
+    width: 600px;
+    height: 472px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.product_img img {
+    width: auto;
+}
+
+.product_content {
+    width: 620px;
+    text-align: right;
+}
+
+.product_title {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.product_description {
+    margin-bottom: 26px;
+}
+
+.product_spec {
+    margin-bottom: 24px;
+}
+
+.product_price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.product_button {
+    margin-top: 30px;
+    color: #333;
+    display: inline-block;
+    align-self: center;
+
+}
+
+.product_button a {
+    display: block;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 36%;
+    transform: translateY(-50%);
+    font-size: 36px;
+    color: #666;
+}
+
+.prev {
+    top: 50%;
+    left: -60px;
+}
+
+.next {
+    top: 50%;
+    right: -60px;
+}
+
+/* --------- 프로덕트 끝 --------- */
+
+.service_visual {
+    display: flex;
+    align-items: center;
+    height: 744px;
+    background-image: url("../img/section_service_banner.jpg");
+}
+
+.service_title {
+    margin-bottom: 15px;
+}
+
+.service_description {
+    margin-bottom: 15px;
+}
+
+.service_content {
+    width: 780px;
+    height: 420px;
+    background-color: rgba(57, 59, 70, 0.7);
+    padding: 35px 77px 40px 77px;
+}
+
+.service_button {
+    width: 180px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+/* --------- 서비스 끝 --------- */
+
+.footer {
+    height: 260px;
+    background-color: #182638;
+    padding-top: 80px;
+}
+
+footer .inner {
+    display: flex;
+}
+
+.footer_logo {
+    width: 150px;
+    height: 52px;
+}
+
+.footer_logo img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.footer_nav li:nth-child(2) {
+    margin-left: 200px;
+}
+
+@media all and (max-width: 959px) {
+
+    *{
+        text-align:center;
+    }
+    
+    .banner {
+        height: 540px;
+        background-position: 55% center;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .banner_title {
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .section_title {
+        width: calc(100% - 40px);
+        margin:0 auto 30px;
+    }
+
+    .inner{
+        width: calc(100% - 40px);
+    }
+
+/* 모바일 배너 끝 */
+
+    .logo img {
+        width: 105px;
+    }
+
+    .header_inner{
+        width: calc(100% - 50px);
+    }
+
+    .header_icons {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    /* 모바일 메인 헤더 끝 */
+
+    .collection{
+        margin:50px 0;
+    }
+
+    .collection_list {
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .collection_list>a{
+        width:calc(100% - 10px);
+    }
+
+
+    .collection_card {
+        width: 100%;
+        margin:0 auto 0 15px;
+    }
+
+    .collection_card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+/* 모바일 컬렉션 끝 */
+
+    .technology{
+        margin-bottom:50px;
+    }
+
+    .technology_visual{
+        height: 420px;
+        background-position: 55% center;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .technology_title {
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .product{
+        margin-bottom:50px;
+    }
+
+    .slider_move{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .featured_img {
+        width: 100%;
+        height:250px;
+        overflow: hidden;
+    }
+
+    .featured_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .featured_text {
+        width: 100%;
+        padding: 32px 20px 0;
+    }
+
+
+    .product_slider{
+        width:calc(100% - 10px);
+        gap:0px;
+        flex-direction:column;
+    }
+    
+    .product_img{
+        width:390px;
+        height:250px;
+        justify-content:start;
+    }
+
+    .product_img img{
+        width:100%;
+        height:auto;
+    }
+
+    .product_title{
+        font-size:24px;
+    }
+
+    .product_description{
+        margin-bottom:15px;
+    }
+
+    .product_spec{
+        margin-bottom:20px;
+    }
+
+    .product_arrow {
+        display:none;
+    }
+
+    /* 모바일 프로덕트 끝 */
+
+    .service_visual{
+        height:520px;
+    }
+
+    .service_content{
+        width:calc(100% - 10px);
+        margin:0 auto;
+        padding:25px 15px;
+        height:380px;
+    }
+
+    .service_title{
+        font-size:34px;
+    }
+
+    .service_description{
+        margin-bottom:8px;
+    }
+
+    .service_description:nth-of-type(1){
+        margin-bottom:20px;
+    }
+
+    /* 모바일 서비스 끝 */
+
+    .footer{
+        height:100%;
+        padding:30px 0;
+    }
+
+    .footer_logo{
+        margin-bottom:20px;
+    }
+
+    footer .inner{
+        width:calc(100% - 10px);
+        flex-direction:column;
+    }
+
+    .footer_nav li:nth-child(2){
+        margin-left:0;
+    }
+
+    .footer_nav{
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+    }
+}
