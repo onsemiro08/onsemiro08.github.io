@@ -1,0 +1,376 @@
+#about,
+#end {
+    text-align: right;
+}
+
+#about {
+    position: relative;
+}
+
+.hamburger_wrap {
+    display: none;
+}
+
+.project_intro {
+    margin: 20px 40px;
+    width: calc(100% - 80px);
+    height: calc(100vh - 40px);
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.project_intro video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project_info {
+    width: 100%;
+    height: 331px;
+    border: 1px solid #333;
+}
+
+.project_preview {
+    width: 100%;
+    height: 646px;
+    margin-top: 37px;
+    border: 1px solid #333;
+}
+
+.about_title {
+    font-size: 2.875rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.about_name {
+    font-size: 2.25rem;
+}
+
+.about_skill {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.skill_row {
+    display: flex;
+    margin-top: 22px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.skill_row img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.site_info {
+    font-size: 1.5rem;
+}
+
+.mb_14 {
+    margin-bottom: 14px;
+}
+
+/* 어바웃 섹션 끝 */
+
+.project_index a.active,
+.project_list a.active {
+    color: #FF0000;
+}
+
+.project_wrap {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.project_visual {
+    width: 380px;
+    height: auto;
+}
+
+.project_visual>div {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project_visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.tissot_visual_02 {
+    margin: 30px 0;
+}
+
+.jeep_visual_02 {
+    margin: 30px 0;
+}
+
+.project_text {
+    width: 483px;
+    font-size: 1.75rem;
+}
+
+.project_text span {
+    font-weight: 700;
+}
+
+.project_title_name {
+    margin-bottom: 20px;
+}
+
+.project_role {
+    margin: 20px 0;
+}
+
+.ai_info {
+    margin: 40px 0;
+}
+
+.Bingrae_visual_02 {
+    margin: 30px 0;
+}
+
+/* 프로젝트 섹션 끝 */
+
+.end_info {
+    display: flex;
+    gap: 60px;
+    justify-content: right;
+}
+
+
+/* 엔드 섹션 끝 */
+
+@media all and (max-width: 1679px) and (min-width: 1280px) {
+    .project_wrap {
+        gap: 30px;
+    }
+
+    .project_visual {
+        width: 40%;
+    }
+
+    .project_text {
+        width: 55%;
+        font-size: 1.25rem;
+    }
+
+    .project_visual img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width:1279px) and (min-width:960px) {
+
+    .about_name {
+        font-size: 1.5rem;
+    }
+
+    .about_skill {
+        font-size: 1.5rem;
+    }
+
+    .font_20 {
+        font-size: 1rem;
+    }
+
+    .about_title {
+        font-size: 1.75rem;
+    }
+
+    .project_wrap {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+
+    .project_visual {
+        width: 100%;
+        height: auto;
+    }
+
+    .project_visual img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .project_intro {
+        height: auto;
+    }
+
+    .project_intro video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .project_text {
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    .project_title {
+        font-size: 1.5rem;
+    }
+
+    .project_preview {
+        height: 400px;
+    }
+}
+
+/* 태블릿 끝 */
+
+@media screen and (max-width: 959px) {
+    .hamburger_wrap {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        background-color: white;
+        z-index: 999;
+        height: 75px;
+        border-bottom: 1px solid transparent;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .hamburger_wrap.scroll {
+        border-color: #333;
+    }
+
+    .project_intro {
+        width: calc(100% - 20px);
+        height: auto;
+        margin: 80px auto 50px;
+        overflow: hidden;
+    }
+
+    .project_intro video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .left_area {
+        position: fixed;
+        top: 75px;
+        left: 10px;
+        width: calc(100% - 20px);
+        height: calc(100vh - 100px);
+        z-index: 999;
+        text-align: right;
+        border-color: transparent;
+        background-color: transparent;
+        pointer-events: none;
+    }
+
+    .left_area .project_index,
+    .left_area .project_list {
+        display: none;
+    }
+
+    .left_area.menu_open {
+        border-color: #333;
+        background-color: #fff;
+        pointer-events: auto;
+    }
+
+    body.scroll_lock::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 998;
+    }
+
+    body.scroll_lock .hamburger_wrap {
+        border-color: transparent;
+    }
+
+    .project_title,
+    .project_list {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .project_index.menu_open,
+    .project_list.menu_open {
+        display: block;
+    }
+
+    .project_list {
+        margin-top: 20px;
+    }
+
+    .project_info {
+        min-height: 220px;
+        height: auto;
+    }
+
+    .about_title {
+        font-size: 2rem;
+    }
+
+    .about_name {
+        font-size: 1.5rem;
+    }
+
+    .project_preview {
+        height: auto;
+        margin-top: 60px;
+    }
+
+    .project_text {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+
+    .site_info {
+        font-size: 1.25rem;
+    }
+
+    .ai_info {
+        margin: 32px 0;
+    }
+
+    .end_info {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .mb_14 {
+        margin-bottom: 6px;
+    }
+
+    .project_wrap {
+        flex-direction: column;
+    }
+
+    .project_visual {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+    }
+}
+
+/* 모바일 끝 */
