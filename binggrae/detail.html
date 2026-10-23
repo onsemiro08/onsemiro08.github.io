@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품 상세</title>
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/detail.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header_logo">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="빙그레 로고">
+            </a>
+        </h1>
+        <button class="hamburger" type="button" aria-label="전체 메뉴 열기">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.75 15H26.25M3.75 7.5H26.25M3.75 22.5H26.25" stroke="black" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="header_inner">
+            <nav class="top_menu">
+                <div class="main_menu">
+                    <a class="company">company</a>
+                    <div class="sub_menu">
+                        <a class="company_overview">회사개요</a>
+                        <a class="management_philosophy">경영이념</a>
+                        <a class="history">연혁</a>
+                        <a class="our_business">사업분야</a>
+                        <a class="global_binggrae">글로벌 빙그레</a>
+                    </div>
+                </div>
+                <div class="main_menu">
+                    <a href="./products.html" class="products">products</a>
+                    <div class="sub_menu">
+                        <a href="./products.html" class="new_product">신제품</a>
+                        <a href="./products.html" class="category">제품 카테고리</a>
+                    </div>
+                </div>
+                <div class="main_menu">
+                    <a class="binggrae">binggrae</a>
+                    <div class="sub_menu">
+                        <a class="brand_history">브랜드 히스토리</a>
+                        <a class="binggrae_style">빙그레다움</a>
+                        <a href="./binggrae.html" class="todays_binggrae">오늘의 빙그레</a>
+                    </div>
+                </div>
+                <div class="main_menu">
+                    <a class="sustainbility">sustainability</a>
+                    <div class="sub_menu">
+                        <a class="environment_safety_health">ESH 체계</a>
+                        <a class="environmental_management">환경경영</a>
+                        <a class="social_impact">사회적 가치</a>
+                        <a class="ethical_management">윤리 책임경영</a>
+                        <a class="reporting_policy">보고서 정책</a>
+                    </div>
+                </div>
+                <div class="main_menu">
+                    <a href="./news.html" class="news">news</a>
+                    <div class="sub_menu">
+                        <a href="./news.html" class="m_binggrae_news">빙그레 소식</a>
+                        <a class="announcement">공지사항</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="utility_menu">
+            <a>KR</a>
+            <a>ALL MENU +</a>
+        </div>
+    </header>
+    <main>
+        <section id="detail_intro">
+            <div class="detail_intro_inner inner">
+                <h2 class="detail_intro_title">PRODUCTS</h2>
+                <p class="detail_intro_description">익숙한 맛 속에 담긴 이야기를 만나보세요.</p>
+            </div>
+        </section>
+        <section id="detail_product">
+            <div class="detail_inner inner">
+                <div class="detail_category_buttons">
+                    <a href="./products.html" class="detail_category_btn">신제품</a>
+                    <a href="./products.html" class="detail_category_btn">아이스크림</a>
+                    <a href="./products.html" class="detail_category_btn active">우유·치즈</a>
+                    <a href="./products.html" class="detail_category_btn">요거트</a>
+                    <a href="./products.html" class="detail_category_btn">커피</a>
+                    <a href="./products.html" class="detail_category_btn">주스·음료</a>
+                </div>
+                <div class="detail_title_wrap">
+                    <h2 class="detail_product_name"></h2>
+                    <p class="detail_product_description"></p>
+                </div>
+                <div class="detail_visual_wrap">
+                    <figure class="detail_product_image">
+                        <img src="" alt="">
+                    </figure>
+                    <div class="detail_accordion"></div>
+                </div>
+                <div class="product_info">
+                    <h3>PRODUCT INFO</h3>
+                    <div class="product_info_text">
+                        <p class="info_capacity">
+                            <strong>용량</strong>
+                            <span class="capacity_badge"></span>
+                        </p>
+                        <p class="serving_text"></p>
+                        <p class="calorie_text"></p>
+                    </div>
+                    <table class="nutrition_table">
+                        <thead>
+                            <tr>
+                                <th>영양성분</th>
+                                <th>함량</th>
+                                <th>기준치</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="related_products">
+                    <div class="related_title_wrap">
+                        <h3>비슷한 상품 보기</h3>
+                        <p class="related_tags"></p>
+                    </div>
+                    <div class="related_list"></div>
+                </div>
+            </div>
+        </section>
+        <div class="corporate_links">
+            <div class="corporate_inner inner">
+                <nav class="corporate_wrap">
+                    <a>INVESTOR RELATIONS</a>
+                    <a>CAREERS</a>
+                    <a>CUSTOMER CENTER</a>
+                    <a>PURCHASE PORTAL</a>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_inner inner">
+            <div class="footer_logo">
+                <img src="./images/logo.svg" alt="빙그레 로고">
+            </div>
+            <nav class="footer_link">
+                <ul>
+                    <li class="footer_menu">
+                        <a>제품</a>
+                        <a>브랜드</a>
+                        <a>지속가능경영</a>
+                        <a>고객지원</a>
+                    </li>
+                    <li class="footer_info">
+                        <a>회사정보</a>
+                        <a>개인정보처리방침</a>
+                        <a>SNS</a>
+                    </li>
+                    <li class="footer_copyright">COPYRIGHT</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./js/detail.js"></script>
+</body>
+
+</html>
