@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스</title>
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/news.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header_logo">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="빙그레 로고">
+            </a>
+        </h1>
+        <button class="hamburger" type="button" aria-label="전체 메뉴 열기">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M3.75 15H26.25M3.75 7.5H26.25M3.75 22.5H26.25"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+
+        <div class="header_inner">
+            <nav class="top_menu">
+                <div class="main_menu">
+                    <a class="company">company</a>
+                    <div class="sub_menu">
+                        <a class="company_overview">회사개요</a>
+                        <a class="management_philosophy">경영이념</a>
+                        <a class="history">연혁</a>
+                        <a class="our_business">사업분야</a>
+                        <a class="global_bingrae">글로벌 빙그레</a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a href="./products.html" class="products">products</a>
+                    <div class="sub_menu">
+                        <a href="./products.html" class="new_product">신제품</a>
+                        <a href="./products.html" class="category">제품 카테고리</a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a class="binggrae">binggrae</a>
+                    <div class="sub_menu">
+                        <a class="brand_history">브랜드 히스토리</a>
+                        <a class="binggrae_style">빙그레다움</a>
+                        <a href="./binggrae.html" class="todays_binggrae">
+                            오늘의 빙그레
+                        </a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a class="sustainbility">sustainability</a>
+
+                    <div class="sub_menu">
+                        <a class="environment_safety_health">ESH 체계</a>
+                        <a class="environmental_management">환경경영</a>
+                        <a class="social_impact">사회적 가치</a>
+                        <a class="ethical_management">윤리 책임경영</a>
+                        <a class="reporting_policy">보고서 정책</a>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    <a href="./news.html" class="news">news</a>
+                    <div class="sub_menu">
+                        <a href="./news.html" class="m_binggrae_news">
+                            빙그레 소식
+                        </a>
+                        <a class="announcement">공지사항</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="utility_menu">
+            <a>KR</a>
+            <a>ALL MENU +</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="news_intro">
+            <div class="news_inner inner">
+                <div class="news_text">
+                    <h2 class="news_title">NEWS</h2>
+                    <p class="news_description">
+                        오늘도 이어지는 빙그레의 이야기,<br>
+                        새로운 소식과 다양한 활동을 만나보세요.
+                    </p>
+                </div>
+                <figure class="news_intro_visual">
+                    <img src="./images/bing_symbol.png" alt="빙그레 심볼">
+                </figure>
+            </div>
+        </section>
+
+        <section id="news_list">
+            <div class="news_list_inner inner">
+                <p class="news_count">
+                    총 <span class="news_count_number">0</span> 건
+                </p>
+                <div class="news_contents"></div>
+            </div>
+        </section>
+
+        <div class="corporate_links">
+            <div class="corporate_inner inner">
+                <nav class="corporate_wrap">
+                    <a>INVESTOR RELATIONS</a>
+                    <a>CAREERS</a>
+                    <a>CUSTOMER CENTER</a>
+                    <a>PURCHASE PORTAL</a>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_inner inner">
+            <div class="footer_logo">
+                <img src="./images/logo.svg" alt="빙그레 로고">
+            </div>
+            <nav class="footer_link">
+                <ul>
+                    <li class="footer_menu">
+                        <a>제품</a>
+                        <a>브랜드</a>
+                        <a>지속가능경영</a>
+                        <a>고객지원</a>
+                    </li>
+                    <li class="footer_info">
+                        <a>회사정보</a>
+                        <a>개인정보처리방침</a>
+                        <a>SNS</a>
+                    </li>
+                    <li class="footer_copyright">
+                        COPYRIGHT
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./js/news.js"></script>
+</body>
+
+</html>
