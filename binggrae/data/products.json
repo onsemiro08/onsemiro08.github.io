@@ -1,0 +1,371 @@
+{
+    "categories_list": {
+        "new": [
+            {
+                "name": "요플레 그릭 아몬드바나나",
+                "image": "./images/new_yoplait_greek_almond_banana.png",
+                "keywords": [
+                    "고소한",
+                    "부드러운",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=yoplait-greek-almond-banana"
+            },
+            {
+                "name": "설탕이 들어가지 않은 우유",
+                "image": "./images/dairy_no_sugar_milk.png",
+                "keywords": [
+                    "깔끔한",
+                    "부드러운",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=no-sugar-milk"
+            },
+            {
+                "name": "따옴 트위스트",
+                "image": "./images/new_ttaom_twist.png",
+                "keywords": [
+                    "상큼한",
+                    "달콤한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=ttaom-twist"
+            },
+            {
+                "name": "아카페라 사이즈업 벤티",
+                "image": "./images/coffee_acafela_sizeup.png",
+                "keywords": [
+                    "진한",
+                    "깔끔한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=acafela-sizeup-venti"
+            },
+            {
+                "name": "더 단백",
+                "image": "./images/new_the_danbaek.png",
+                "keywords": [
+                    "부드러운",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=the-danbaek"
+            },
+            {
+                "name": "더위사냥 저당 디카페인 커피",
+                "image": "./images/new_deowisanyang_low_sugar_decaf_coffee.png",
+                "keywords": [
+                    "진한",
+                    "깔끔한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=deowisanyang-low-sugar-decaf-coffee"
+            }
+        ],
+        "icecream": [
+            {
+                "name": "메로나",
+                "image": "./images/icecream_melona.png",
+                "keywords": [
+                    "달콤한",
+                    "부드러운",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=melona"
+            },
+            {
+                "name": "붕어싸만코",
+                "image": "./images/icecream_samanco_tteok.png",
+                "keywords": [
+                    "달콤한",
+                    "고소한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=samanco"
+            },
+            {
+                "name": "투게더",
+                "image": "./images/icecream_together_vanilla.png",
+                "keywords": [
+                    "달콤한",
+                    "부드러운",
+                    "고소한"
+                ],
+                "link": "./detail.html?id=together"
+            },
+            {
+                "name": "생귤탱귤",
+                "image": "./images/icecream_saenggyultanggyul_original.png",
+                "keywords": [
+                    "상큼한",
+                    "달콤한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=saenggyultanggyul"
+            },
+            {
+                "name": "슈퍼콘",
+                "image": "./images/icecream_supercone.png",
+                "keywords": [
+                    "달콤한",
+                    "고소한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=supercone"
+            },
+            {
+                "name": "빵또아",
+                "image": "./images/icecream_bbangtoa.png",
+                "keywords": [
+                    "달콤한",
+                    "부드러운",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=bbangtoa"
+            }
+        ],
+        "milk": [
+            {
+                "name": "바나나맛우유",
+                "image": "./images/dairy_banana_milk.png",
+                "keywords": [
+                    "달콤한",
+                    "부드러운",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=banana-milk"
+            },
+            {
+                "name": "빙그레우유",
+                "image": "./images/dairy_binggrae_milk.png",
+                "keywords": [
+                    "부드러운",
+                    "깔끔한"
+                ],
+                "link": "./detail.html?id=binggrae-milk"
+            },
+            {
+                "name": "설탕이 들어가지 않은 우유",
+                "image": "./images/dairy_no_sugar_milk.png",
+                "keywords": [
+                    "깔끔한",
+                    "부드러운",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=no-sugar-milk"
+            },
+            {
+                "name": "프로틴 고단백 치즈",
+                "image": "./images/dairy_protein_cheese.png",
+                "keywords": [
+                    "고소한",
+                    "진한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=protein-cheese"
+            },
+            {
+                "name": "프로틴 구워먹는 치즈",
+                "image": "./images/dairy_grilled_protein_cheese.png",
+                "keywords": [
+                    "고소한",
+                    "진한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=grilled-protein-cheese"
+            },
+            {
+                "name": "딸기맛우유",
+                "image": "./images/dairy_strawberry_milk.png",
+                "keywords": [
+                    "달콤한",
+                    "부드러운",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=strawberry-milk"
+            }
+        ],
+        "yogurt": [
+            {
+                "name": "요플레 오리지널",
+                "image": "./images/yoplait_original_strawberry.png",
+                "keywords": [
+                    "달콤한",
+                    "상큼한",
+                    "부드러운"
+                ],
+                "link": "./detail.html?id=yoplait-original"
+            },
+            {
+                "name": "요플레 플레인",
+                "image": "./images/yogurt_yoplait_plain.png",
+                "keywords": [
+                    "상큼한",
+                    "깔끔한",
+                    "부드러운"
+                ],
+                "link": "./detail.html?id=yoplait-plain"
+            },
+            {
+                "name": "요플레 그릭",
+                "image": "./images/yogurt_yoplait_greek.png",
+                "keywords": [
+                    "고소한",
+                    "진한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=yoplait-greek"
+            },
+            {
+                "name": "요플레 프로틴",
+                "image": "./images/new_yoplait_greek_almond_banana.png",
+                "keywords": [
+                    "부드러운",
+                    "깔끔한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=yoplait-protein"
+            },
+            {
+                "name": "요플레 닥터캡슐",
+                "image": "./images/yogurt_dr_capsule.png",
+                "keywords": [
+                    "상큼한",
+                    "깔끔한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=dr-capsule"
+            },
+            {
+                "name": "뽀로로와 친구들 요구르트",
+                "image": "./images/yogurt_pororo_friends.png",
+                "keywords": [
+                    "달콤한",
+                    "상큼한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=pororo-yogurt"
+            }
+        ],
+        "coffee": [
+            {
+                "name": "아카페라 240mL",
+                "image": "./images/coffee_acafela_240.png",
+                "keywords": [
+                    "진한",
+                    "깔끔한"
+                ],
+                "link": "./detail.html?id=acafela-240"
+            },
+            {
+                "name": "아카페라 사이즈업",
+                "image": "./images/coffee_acafela_sizeup.png",
+                "keywords": [
+                    "진한",
+                    "깔끔한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=acafela-sizeup"
+            },
+            {
+                "name": "아카페라 스페셜티",
+                "image": "./images/coffee_acafela_specialty.png",
+                "keywords": [
+                    "진한",
+                    "깔끔한"
+                ],
+                "link": "./detail.html?id=acafela-specialty"
+            },
+            {
+                "name": "아카페라 스페셜티 CUP",
+                "image": "./images/coffee_acafela_specialty_cup.png",
+                "keywords": [
+                    "진한",
+                    "부드러운",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=acafela-specialty-cup"
+            },
+            {
+                "name": "아카페라 심플리",
+                "image": "./images/coffee_acafela_simply.png",
+                "keywords": [
+                    "깔끔한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=acafela-simply"
+            },
+            {
+                "name": "아카페라 사이즈업 벤티",
+                "image": "./images/coffee_acafela_sizeup_venti.png",
+                "keywords": [
+                    "진한",
+                    "깔끔한",
+                    "든든한"
+                ],
+                "link": "./detail.html?id=acafela-sizeup-venti"
+            }
+        ],
+        "drink": [
+            {
+                "name": "따옴",
+                "image": "./images/beverage_ttaom.png",
+                "keywords": [
+                    "상큼한",
+                    "깔끔한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=ttaom"
+            },
+            {
+                "name": "따옴 유기농",
+                "image": "./images/beverage_ttaom_organic.png",
+                "keywords": [
+                    "상큼한",
+                    "깔끔한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=ttaom-organic"
+            },
+            {
+                "name": "따옴 Plus",
+                "image": "./images/beverage_ttaom_plus.png",
+                "keywords": [
+                    "상큼한",
+                    "깔끔한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=ttaom-plus"
+            },
+            {
+                "name": "쥬시쿨 더핏",
+                "image": "./images/beverage_juicycool_ade.png",
+                "keywords": [
+                    "달콤한",
+                    "상큼한",
+                    "가벼운"
+                ],
+                "link": "./detail.html?id=juicycool-thefit"
+            },
+            {
+                "name": "식물성 바유",
+                "image": "./images/beverage_plant_based_bayu.png",
+                "keywords": [
+                    "고소한",
+                    "부드러운",
+                    "깔끔한"
+                ],
+                "link": "./detail.html?id=plant-based-bayu"
+            },
+            {
+                "name": "오틀리",
+                "image": "./images/beverage_oatly.png",
+                "keywords": [
+                    "고소한",
+                    "부드러운",
+                    "깔끔한"
+                ],
+                "link": "./detail.html?id=oatly"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "news_list": [
+        {
+            "title": "빙그레, ‘2026 빙그레 그란폰도’ 개최",
+            "date": "2026. 07. 31",
+            "datetime": "2026-07-31",
+            "image": "./images/news_granfondo.jpg"
+        },
+        {
+            "title": "빙그레, 3년 연속 해군본부에 아이스크림 ‘투게더’ 후원",
+            "date": "2026. 07. 30",
+            "datetime": "2026-07-30",
+            "image": "./images/news_together_navy.jpg"
+        },
+        {
+            "title": "빙그레, 한 포에 담은 신제품 ‘프롬뉴트리 효소와 식이섬유 플러스 알파CD’ 출시",
+            "date": "2026. 06. 05",
+            "datetime": "2026-06-05",
+            "image": "./images/news_fromnutri.jpg"
+        }
+    ]
+}

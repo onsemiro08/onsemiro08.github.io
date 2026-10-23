@@ -1,0 +1,1093 @@
+.hamburger {
+    display: none;
+}
+
+#detail_intro {
+    background-color: #FFF8F2;
+}
+
+.detail_intro_inner {
+    width: 1420px;
+    padding: 48px 0 54px;
+}
+
+.detail_intro_title {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.detail_intro_description {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 인트로 끝 */
+
+#detail_product {
+    padding: 105px 0 120px;
+}
+
+.detail_inner {
+    width: 1140px;
+}
+
+.detail_category_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.detail_category_btn {
+    width: 132px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 24px;
+    font-size: 18px;
+}
+
+.detail_category_btn.active {
+    background-color: #ED1C24;
+    border-color: #ED1C24;
+    color: #fff;
+}
+
+.detail_title_wrap {
+    text-align: center;
+    margin-top: 82px;
+}
+
+.detail_product_name {
+    font-family: BinggreTtaom;
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.detail_product_description {
+    font-size: 26px;
+}
+
+.detail_visual_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.detail_product_image {
+    width: 540px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.detail_product_image img {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.detail_accordion {
+    width: 540px;
+    border: 1px solid #333;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.accordion_item+.accordion_item {
+    border-top: 1px solid #777;
+}
+
+.accordion_title {
+    width: 100%;
+    height: 62px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: #fff;
+    font-size: 18px;
+    text-align: left;
+}
+
+.accordion_number {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    border: 1px solid #777;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.accordion_text {
+    width: calc(100% - 64px);
+}
+
+.accordion_icon {
+    width: 24px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.accordion_content {
+    display: none;
+    padding: 28px 32px 30px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.accordion_item.active .accordion_title {
+    background-color: #ED1C24;
+    color: #fff;
+}
+
+.accordion_item.active .accordion_number {
+    border-color: #fff;
+}
+
+.accordion_item.active .accordion_content {
+    display: block;
+}
+
+/* 제품 비주얼 끝 */
+
+.product_info {
+    text-align:center;
+    width: 580px;
+    margin: 110px auto 0;
+}
+
+.product_info h3 {
+    font-size: 28px;
+    margin-bottom: 34px;
+}
+
+.product_info_text {
+    font-size: 17px;
+}
+
+.info_capacity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.info_capacity strong {
+    width: 80px;
+}
+
+.capacity_badge {
+    min-width: 95px;
+    height: 40px;
+    padding: 0 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF0F0;
+    border-radius: 22px;
+}
+
+.serving_text,
+.calorie_text {
+    margin-bottom: 16px;
+}
+
+.nutrition_table {
+    width: 100%;
+    margin-top: 34px;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.nutrition_table th,
+.nutrition_table td {
+    height: 38px;
+    border-bottom: 1px solid #777;
+}
+
+.nutrition_table th:first-child,
+.nutrition_table td:first-child {
+    text-align: left;
+}
+
+.nutrition_table th:nth-child(2),
+.nutrition_table td:nth-child(2),
+.nutrition_table th:nth-child(3),
+.nutrition_table td:nth-child(3) {
+    text-align: right;
+}
+
+/* 상품 정보 끝 */
+
+.related_products {
+    margin-top: 90px;
+}
+
+.related_title_wrap {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.related_title_wrap h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.related_tags {
+    font-size: 18px;
+}
+
+.related_list {
+    display: flex;
+    gap: 32px;
+}
+
+.related_item {
+    width: 261px;
+    text-align: center;
+}
+
+.related_image {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    position: relative;
+}
+
+.related_image img {
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: contain;
+}
+
+.related_badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #ED1C24;
+}
+
+.related_name {
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+/* 비슷한 상품 끝 */
+
+.detail_visual_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.detail_product_image {
+    width: 430px;
+    height: 320px;
+}
+
+.detail_accordion {
+    width: 430px;
+}
+
+
+@media all and (min-width: 960px) and (max-width: 1279px) {
+
+    .detail_intro_inner {
+        width: 900px;
+        padding: 45px 0 50px;
+    }
+
+    .detail_intro_title {
+        font-size: 52px;
+    }
+
+    .detail_intro_description {
+        font-size: 18px;
+    }
+
+    /* 인트로 끝 */
+
+    #detail_product {
+        padding: 85px 0 100px;
+    }
+
+    .detail_inner {
+        width: 900px;
+    }
+
+    .detail_category_buttons {
+        gap: 14px;
+    }
+
+    .detail_category_btn {
+        width: 128px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .detail_title_wrap {
+        margin-top: 65px;
+    }
+
+    .detail_product_name {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .detail_product_description {
+        font-size: 22px;
+    }
+
+    /* 상품 타이틀 끝 */
+
+    .detail_visual_wrap {
+        margin-top: 50px;
+    }
+
+    .detail_product_image {
+        width: 430px;
+        height: 320px;
+    }
+
+    .detail_accordion {
+        width: 430px;
+    }
+
+    .accordion_title {
+        height: 58px;
+        padding: 0 24px;
+        font-size: 16px;
+    }
+
+    .accordion_content {
+        padding: 22px 24px 24px;
+        font-size: 14px;
+    }
+
+    /* 제품 비주얼 끝 */
+
+    .product_info {
+        width: 520px;
+        margin-top: 85px;
+    }
+
+    .product_info h3 {
+        font-size: 25px;
+    }
+
+    /* 상품 정보 끝 */
+
+    .related_products {
+        margin-top: 80px;
+    }
+
+    .related_title_wrap {
+        margin-bottom: 30px;
+    }
+
+    .related_list {
+        gap: 28px;
+    }
+
+    .related_item {
+        width: 204px;
+    }
+
+    .related_img {
+        height: 140px;
+    }
+
+    .related_img img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    /* 비슷한 상품 끝 */
+
+    .corporate_inner {
+        width: 900px;
+    }
+
+    /* 기업 링크 끝 */
+
+    .footer_inner {
+        width: 900px;
+    }
+
+    /* 푸터 끝 */
+}
+
+@media all and (min-width: 600px) and (max-width: 959px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+        z-index: 100;
+    }
+
+    .header_logo {
+        width: 150px;
+        height: auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .header_logo img {
+        width: 130px;
+        height: auto;
+    }
+
+    .utility_menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .header_inner {
+        display: none;
+    }
+
+    .header_inner.menu_open {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: calc(100vh - 100px);
+        padding: 24px 20px;
+        background-color: #fff;
+        overflow-y: auto;
+    }
+
+    .top_menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        height: auto;
+    }
+
+    .main_menu {
+        width: 100%;
+        height: auto;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu>a {
+        height: auto;
+        padding: 16px 0;
+        line-height: 1.5;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .main_menu>a::after {
+        display: none;
+    }
+
+    .main_menu:hover {
+        background-color: transparent;
+    }
+
+    .sub_menu {
+        position: static;
+        display: block;
+        width: 100%;
+        padding-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .sub_menu>a {
+        padding: 8px 16px;
+        line-height: 1.5;
+        background-color: transparent;
+    }
+
+    body.menu_open {
+        overflow: hidden;
+    }
+
+    /* 태블릿 헤더 끝 */
+
+    .detail_intro_inner {
+        width: calc(100% - 56px);
+        height: auto;
+        padding: 45px 0;
+    }
+
+    .detail_intro_title {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+
+    .detail_intro_description {
+        font-size: 18px;
+    }
+
+    /* 태블릿 인트로 끝 */
+
+    #detail_product {
+        padding: 80px 0 100px;
+    }
+
+    .detail_inner {
+        width: calc(100% - 56px);
+    }
+
+    .detail_category_buttons {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .detail_category_btn {
+        width: 160px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .detail_title_wrap {
+        margin-top: 65px;
+    }
+
+    .detail_product_name {
+        font-size: 38px;
+        margin-bottom: 16px;
+    }
+
+    .detail_product_description {
+        font-size: 21px;
+    }
+
+    /* 태블릿 상품 타이틀 끝 */
+
+    .detail_visual_wrap {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        margin-top: 45px;
+    }
+
+    .detail_product_image {
+        width: 100%;
+        max-width: 720px;
+        height: 360px;
+    }
+
+    .detail_accordion {
+        width: 100%;
+        max-width: 720px;
+    }
+
+    .accordion_title {
+        padding: 0 28px;
+    }
+
+    .accordion_content {
+        padding: 26px 28px;
+    }
+
+    /* 태블릿 제품 비주얼 끝 */
+
+    .product_info {
+        width: 100%;
+        max-width: 580px;
+        margin-top: 90px;
+    }
+
+    .product_info h3 {
+        font-size: 26px;
+    }
+
+    /* 태블릿 상품 정보 끝 */
+
+    .related_products {
+        margin-top: 80px;
+    }
+
+    .related_list {
+        flex-wrap: wrap;
+        gap: 30px 20px;
+    }
+
+    .related_item {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .related_img {
+        height: 200px;
+    }
+
+    /* 태블릿 비슷한 상품 끝 */
+
+    .corporate_links {
+        width: calc(100% - 20px);
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .corporate_inner {
+        width: 100%;
+        height: auto;
+        padding: 24px 0;
+    }
+
+    .corporate_wrap {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 16px 0;
+    }
+
+    .corporate_wrap a {
+        width: 50%;
+        text-align: center;
+    }
+
+    /* 태블릿 기업 링크 끝 */
+
+    footer {
+        width: 100%;
+    }
+
+    .footer_inner {
+        width: calc(100% - 40px);
+        height: auto;
+        padding: 30px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_logo {
+        width: 120px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer_logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer_link {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .footer_menu,
+    .footer_info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer_menu a,
+    .footer_info a {
+        width: 100%;
+        padding: 8px 0;
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+
+    .footer_copyright {
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+    }
+
+    /* 태블릿 푸터 끝 */
+}
+
+@media all and (max-width: 599px) {
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+        z-index: 100;
+    }
+
+    .header_logo {
+        width: 130px;
+        height: auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .header_logo img {
+        width: 115px;
+        height: auto;
+    }
+
+    .utility_menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .header_inner {
+        display: none;
+    }
+
+    .header_inner.menu_open {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: calc(100vh - 100px);
+        padding: 24px 20px;
+        background-color: #fff;
+        overflow-y: auto;
+    }
+
+    .top_menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        height: auto;
+    }
+
+    .main_menu {
+        width: 100%;
+        height: auto;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu>a {
+        height: auto;
+        padding: 16px 0;
+        line-height: 1.5;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .main_menu>a::after {
+        display: none;
+    }
+
+    .main_menu:hover {
+        background-color: transparent;
+    }
+
+    .sub_menu {
+        position: static;
+        display: block;
+        width: 100%;
+        padding-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .sub_menu>a {
+        padding: 8px 16px;
+        line-height: 1.5;
+        background-color: transparent;
+    }
+
+    body.menu_open {
+        overflow: hidden;
+    }
+
+    /* 모바일 헤더 끝 */
+
+    .detail_intro_inner {
+        width: calc(100% - 40px);
+        max-width: 350px;
+        height: auto;
+        padding: 35px 0;
+    }
+
+    .detail_intro_title {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .detail_intro_description {
+        font-size: 16px;
+    }
+
+    /* 모바일 인트로 끝 */
+
+    #detail_product {
+        padding: 60px 0 80px;
+    }
+
+    .detail_inner {
+        width: calc(100% - 40px);
+        max-width: 350px;
+    }
+
+    .detail_category_buttons {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .detail_category_btn {
+        width: calc((100% - 10px) / 2);
+        height: 42px;
+        font-size: 15px;
+    }
+
+    .detail_title_wrap {
+        margin-top: 50px;
+    }
+
+    .detail_product_name {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .detail_product_description {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    /* 모바일 상품 타이틀 끝 */
+
+    .detail_visual_wrap {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 35px;
+    }
+
+    .detail_product_image {
+        width: 100%;
+        height: 260px;
+    }
+
+    .detail_product_image img {
+        max-width: 75%;
+        max-height: 75%;
+    }
+
+    .detail_accordion {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .accordion_title {
+        height: 56px;
+        padding: 0 18px;
+        font-size: 15px;
+    }
+
+    .accordion_number {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .accordion_text {
+        width: calc(100% - 58px);
+    }
+
+    .accordion_icon {
+        width: 24px;
+        font-size: 18px;
+    }
+
+    .accordion_content {
+        padding: 20px 18px 22px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* 모바일 제품 비주얼 끝 */
+
+    .product_info {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .product_info h3 {
+        font-size: 24px;
+        margin-bottom: 26px;
+    }
+
+    .product_info_text {
+        font-size: 15px;
+    }
+
+    .info_capacity {
+        margin-bottom: 14px;
+    }
+
+    .info_capacity strong {
+        width: 65px;
+    }
+
+    .capacity_badge {
+        min-width: 80px;
+        height: 36px;
+        padding: 0 14px;
+    }
+
+    .serving_text,
+    .calorie_text {
+        margin-bottom: 12px;
+    }
+
+    .nutrition_table {
+        margin-top: 26px;
+        font-size: 13px;
+    }
+
+    .nutrition_table th,
+    .nutrition_table td {
+        height: 36px;
+    }
+
+    /* 모바일 상품 정보 끝 */
+
+    .related_products {
+        margin-top: 70px;
+    }
+
+    .related_title_wrap {
+        margin-bottom: 28px;
+    }
+
+    .related_title_wrap h3 {
+        font-size: 19px;
+    }
+
+    .related_tags {
+        font-size: 14px;
+    }
+
+    .related_list {
+        flex-wrap: wrap;
+        gap: 28px 12px;
+    }
+
+    .related_item {
+        width: calc((100% - 12px) / 2);
+    }
+
+    .related_img {
+        height: 125px;
+    }
+
+    .related_name {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    /* 모바일 비슷한 상품 끝 */
+
+    .corporate_links {
+        width: calc(100% - 20px);
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .corporate_inner {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .corporate_wrap {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 16px 0;
+    }
+
+    .corporate_wrap a {
+        width: 50%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /* 모바일 기업 링크 끝 */
+
+    footer {
+        width: 100%;
+    }
+
+    .footer_inner {
+        width: calc(100% - 40px);
+        max-width: 350px;
+        height: auto;
+        padding: 30px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_logo {
+        width: 100px;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .footer_logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer_link {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .footer_menu,
+    .footer_info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer_menu a,
+    .footer_info a {
+        width: 100%;
+        padding: 8px 0;
+        margin: 0;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    .footer_copyright {
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    /* 모바일 푸터 끝 */
+}

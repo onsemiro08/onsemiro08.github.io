@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'BinggreTtaom';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BinggraeTaom-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #231F20;
+}
+
+body {
+    font-family: 'SUIT', sans-serif;
+    color: #231F20;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button_primary {
+    border-radius: 26px;
+    width: 176px;
+    height: 52px;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+
+.button_primary svg {
+    margin-left: 8px;
+}
+
+.button_outline svg {
+    margin-left: 6px;
+}
+
+.button_outline {
+    border-radius: 26px;
+    width: 176px;
+    height: 52px;
+    font-size: 18px;
+    border: 1px solid #2E2A24;
+    color: #2E2A24;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+
+/* 초기화 끝 */
+
+.inner {
+    margin: 0 auto;
+}
+
+.section_title {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-size: 24px;
+
+}
+
+.link_arrow {
+    width: 100%;
+    text-align: right;
+}
+
+.mobile {
+    display: none;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.header_inner {
+    width: 1420px;
+    text-align: center;
+}
+
+.header_logo {
+    width: 243px;
+    height: 100px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.header_logo img {
+    width: 170px;
+    height: 40px;
+}
+
+.utility_menu {
+    display: flex;
+    gap: 35px;
+}
+
+/* 헤더 끝 */
+
+.top_menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.main_menu {
+    position: relative;
+    width: 160px;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.main_menu>a::after {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: 18%;
+    width: 0;
+    height: 2px;
+    background-color: #E91B23;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.main_menu:hover>a::after {
+    width: 100px;
+}
+
+.main_menu>a {
+    height: 100%;
+    line-height: 100px;
+    position: relative;
+    display: block;
+}
+
+.main_menu:hover {
+    background-color: #FFF8F8;
+}
+
+.main_menu:hover>a {
+    color: #E91B23;
+}
+
+.sub_menu {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 200px;
+    display: none;
+    font-size: 18px;
+}
+
+.sub_menu>a {
+    display: block;
+    line-height: 40px;
+    padding: 5px;
+    background-color: white;
+}
+
+.main_menu:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu>a:hover {
+    color: #E91B23;
+}
+
+.corporate_links {
+    width: 100%;
+    height: 80px;
+}
+
+.corporate_inner {
+    width: 1420px;
+    height: 80px;
+}
+
+.corporate_wrap {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 기업 링크 끝 */
+
+footer {
+    width: 100%;
+    background-color: #EDF5F7;
+}
+
+.footer_inner {
+    display: flex;
+    width: 1420px;
+    height: 240px;
+    padding-top: 60px;
+}
+
+.footer_logo {
+    width: 169px;
+    height: 40px;
+}
+
+.footer_link {
+    width: calc(100% - 169px);
+    height: 40px;
+    text-align: right;
+}
+
+.footer_info {
+    margin: 20px 0;
+}
+
+.footer_menu>a:nth-child(odd) {
+    margin: 0 25px;
+}
+
+.footer_info>a:nth-child(2) {
+    margin: 0 25px;
+}
+
+/* 푸터 끝 */
+
+@media all and (max-width: 959px) {
+    .pc_br {
+        display: none;
+    }
+
+    .footer_menu>a:nth-child(odd), .footer_info>a:nth-child(2) {
+        margin: 0;
+    }
+}

@@ -1,60 +1,42 @@
-const tabs = document.querySelectorAll('.featured_tab');
-const panels = document.querySelectorAll('.featured_panel');
-const featuredSection = document.querySelector('.featured_products');
-const sectionClasses = [
-    'featured_products_banana',
-    'featured_products_melona',
-    'featured_products_samanco',
-    'featured_products_almond'
-];
+$('.right_area').on('scroll', function () {
+    let scrollTop = $(this).scrollTop();
 
-const newsSlider = document.querySelector('.news_wrap');
-const sliderBttons = document.querySelectorAll('.news_button');
+    $('.page_section').each(function () {
+        let sectionTop = $(this).position().top + scrollTop;
+        let sectionHeight = $(this).outerHeight();
+        let sectionId = $(this).attr('id');
 
-tabs.forEach(function (tab, index) {
-    tab.addEventListener('click', function () {
-        tabs.forEach(function (tab) {
-            tab.classList.remove('active');
-        });
+        if (scrollTop >= sectionTop && scrollTop < sectionTop + sectionHeight) {
+            $('.project_index a, .project_list a').removeClass('active');
+            $('a[href="#' + sectionId + '"]').addClass('active');
 
-        panels.forEach(function (panel) {
-            panel.classList.remove('active');
-        });
-
-        sectionClasses.forEach(function (className) {
-            featuredSection.classList.remove(className);
-        });
-
-        tab.classList.add('active');
-        panels[index].classList.add('active');
-        featuredSection.classList.add(sectionClasses[index]);
+            if (sectionId === 'project_bingrae' || sectionId === 'project_tissot' || sectionId === 'project_jeep') {
+                $('.project_index a[href="#project_bingrae"]').addClass('active');
+            }
+        }
     });
 });
 
-sliderBttons.forEach(function (sliderBtton, index) {
-    sliderBtton.addEventListener('click', function () {
-        newsSlider.style.transform = 'translateX(-' + (942 * index) + 'px)';
-
-        sliderBttons.forEach(function (button) {
-            button.classList.remove('active');
-        });
-
-        sliderBtton.classList.add('active');
-    });
+$('.project_intro video').on('ended', function () {
+    $('.project_intro').hide();
 });
 
-const hamburger = document.querySelector('.hamburger');
-const headerInner = document.querySelector('.header_inner');
+$('.hamburger_wrap').on('click', function () {
+    $('.project_index, .project_list').toggleClass('menu_open');
+    $('.left_area').toggleClass('menu_open');
+    $('body').toggleClass('scroll_lock');
+});
 
-hamburger.addEventListener('click', function () {
-    headerInner.classList.toggle('menu_open');
-    document.body.classList.toggle('menu_open');
+$('.project_index a, .project_list a').on('click', function () {
+    $('.project_index, .project_list').removeClass('menu_open');
+    $('.left_area').removeClass('menu_open');
+    $('body').removeClass('scroll_lock');
+});
 
-    if (headerInner.classList.contains('menu_open')) {
-        hamburger.setAttribute('aria-expanded', 'true');
-        hamburger.setAttribute('aria-label', '전체 메뉴 닫기');
+$(window).on('scroll', function () {
+    if ($(this).scrollTop() > 10) {
+        $('.hamburger_wrap').addClass('scroll');
     } else {
-        hamburger.setAttribute('aria-expanded', 'false');
-        hamburger.setAttribute('aria-label', '전체 메뉴 열기');
+        $('.hamburger_wrap').removeClass('scroll');
     }
 });

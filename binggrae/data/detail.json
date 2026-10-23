@@ -1,0 +1,1863 @@
+{
+  "products": [
+    {
+      "id": "yoplait-greek-almond-banana",
+      "name": "요플레 그릭 아몬드바나나",
+      "category": "new",
+      "image": "./images/new_yoplait_greek_almond_banana.png",
+      "keywords": [
+        "고소한",
+        "부드러운",
+        "든든한"
+      ],
+      "description": "고소한 아몬드와 달콤한 바나나를 더한 고단백 그릭요거트",
+      "capacity": "180g",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": [
+        {
+          "title": "맛있고 건강하게 즐기는 그릭요거트",
+          "content": "40여년 발효유 전문가 요플레가 맛있고 건강하게 만들었습니다. 젤라틴 무첨가로 그릭요거트 본연의 부드러움을 살리고, 어린 아이들도 부담없이 먹을 수 있도록 그릭요거트 특유의 시큼함은 줄였습니다. 고단백 저지방 설탕무첨가로(*요플레 그릭 mild 기준) 건강하고 맛있게 식단관리에 활용할 수 있습니다."
+        },
+        {
+          "title": "용량별 라인업으로 다양하게 즐겨요",
+          "content": "가벼운 간식으로 먹기 좋은 80g 소용량, 1인 가구에게 딱인 180g 중용량, 온 가족이 나눠 먹기 좋은 400g, 900g 대용량으로 상황에 따라 필요에 따라 선택하기 좋습니다."
+        },
+        {
+          "title": "과일이 들어가 더욱 맛있는 과일맛 그릭요거트 출시",
+          "content": "2025년 4월 리얼 과육이 들어가 더욱 맛있는 '요플레 그릭 딸기', '요플레 그릭 복숭아'가 출시되었습니다. 한 컵으로 맛있는 과일과 건강한 그릭요거트를 간편하게 즐길 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "no-sugar-milk",
+      "name": "설탕이 들어가지 않은 우유",
+      "category": "milk",
+      "image": "./images/dairy_no_sugar_milk.png",
+      "keywords": [
+        "깔끔한",
+        "부드러운",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "190ml",
+      "serving": "기준용량(190ml)당",
+      "calorie": "79kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "102mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "10.5g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "7.5g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "지방",
+          "amount": "1.9g",
+          "daily_value": "4%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "포화지방",
+          "amount": "1.2g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "6.7mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "단백질",
+          "amount": "4.9g",
+          "daily_value": "9%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "설탕이 전혀 들어가지 않은 NO ADDED SUGAR",
+          "content": "설탕이 전혀 들어가지 않아, 안심하고 마실 수 있는 설탕무첨가(NO ADDED SUGAR) 가공유입니다.*단, 우유에서 유래한 당류(유당)을 포함하고 있습니다."
+        },
+        {
+          "title": "누구나 좋아하는 달콤한 딸기, 초코맛 그대로",
+          "content": "빙그레 연구진의 특별한 배합을 통해, 아이부터 어른까지 모두가 좋아하는 달콤한 맛을 제대로 구현했습니다."
+        },
+        {
+          "title": "로어 칼로리, 저지방으로 더욱 부담 없이",
+          "content": "가공유 시장점유율 상위 3개 제품 대비 칼로리를 51~55% 줄여, 한 팩(190mL)을 전부 마셔도 72~79kcal 수준에 불과합니다. 심지어 지방 함량까지 낮아 더욱 가볍게 드실 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "ttaom-twist",
+      "name": "따옴 트위스트",
+      "category": "new",
+      "image": "./images/new_ttaom_twist.png",
+      "keywords": [
+        "상큼한",
+        "달콤한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "acafela-sizeup-venti",
+      "name": "아카페라 사이즈업 벤티",
+      "category": "coffee",
+      "image": "./images/coffee_acafela_sizeup_venti.png",
+      "keywords": [
+        "진한",
+        "깔끔한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "the-danbaek",
+      "name": "더 단백",
+      "category": "new",
+      "image": "./images/new_the_danbaek.png",
+      "keywords": [
+        "부드러운",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "deowisanyang-low-sugar-decaf-coffee",
+      "name": "더위사냥 저당 디카페인 커피",
+      "category": "new",
+      "image": "./images/new_deowisanyang_low_sugar_decaf_coffee.png",
+      "keywords": [
+        "진한",
+        "깔끔한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "melona",
+      "name": "메로나",
+      "category": "icecream",
+      "image": "./images/icecream_melona.png",
+      "keywords": [
+        "달콤한",
+        "부드러운",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "75ml",
+      "serving": "기준용량(75ml)당",
+      "calorie": "120kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "50mg",
+          "daily_value": "3%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "18g",
+          "daily_value": "6%"
+        },
+        {
+          "name": "당류",
+          "amount": "13g",
+          "daily_value": "13%"
+        },
+        {
+          "name": "지방",
+          "amount": "5g",
+          "daily_value": "9%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0.5g 미만",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "3.2g",
+          "daily_value": "21%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "15mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "단백질",
+          "amount": "1g",
+          "daily_value": "2%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "메론맛 아이스크림의 대표 브랜드",
+          "content": "메로나는 1992년 당시 고급 과일의 대명사였던 메론을 적용하여 부드럽고 쫀득쫀득한 메론 특유의 맛으로 30년 넘게 꾸준한 사랑을 받아왔습니다. 메로나는 오랜 시간 소비자들의 추억 속에 함께 자리하며, 우리의 일상 속에서 달콤한 유혹을 계속 이어가고 있습니다."
+        },
+        {
+          "title": "메로나는 메로나 이상이다",
+          "content": "메로나는 메로나룩, 메로나네일 등 독특한 청록빛 컬러 아이템으로 상징되는 메로나 패션과 메로나떡, 메로나라떼, 메로나칵테일 등 이색 요리 레시피로도 활용되는 등 전세대를 대표하는 아이콘으로서 아이스크림 이상의 사랑을 받고 있습니다."
+        },
+        {
+          "title": "전세계 30개국 이상으로 뻗어나가는 메로나",
+          "content": "메로나는 해외 수출도 적극 추진하고 있습니다. 각 나라의 선호 과일에 맞춰 판매되어 세계인의 입맛을 사로잡고 있는 메로나는 특히 북미지역에서 상당한 인기를 누리고 있습니다.이러한 현지 시장의 인기를 바탕으로 국내 빙과업계 최초로 미국 현지에서 생산, 판매되고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "samanco",
+      "name": "붕어싸만코",
+      "category": "icecream",
+      "image": "./images/icecream_samanco_tteok.png",
+      "keywords": [
+        "달콤한",
+        "고소한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "150ml",
+      "serving": "기준용량(150ml)당",
+      "calorie": "220kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "80mg",
+          "daily_value": "4%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "37g",
+          "daily_value": "11%"
+        },
+        {
+          "name": "당류",
+          "amount": "24g",
+          "daily_value": "24%"
+        },
+        {
+          "name": "지방",
+          "amount": "7g",
+          "daily_value": "13%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "6g",
+          "daily_value": "40%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "2g",
+          "daily_value": "4%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "늘 우리 곁에 붕어싸만코!",
+          "content": "붕어싸만코는 1991년에 '붕어빵은 겨울에만 먹는 간식'이라는 고정관념에서 벗어나, 여름에도 시원하게 즐기는 붕어빵을 제공하기 위해 개발된 아이스크림입니다. 붕어싸만코의 싸만코는 '싸고 많고'의 줄임말로, 친숙한 모양의 붕어 과자 속 부드러운 아이스크림과 달콤한 시럽, 다양한 식감의 토핑으로 꽉 채운 든든한 온 국민 간식입니다."
+        },
+        {
+          "title": "여름에도 시원하게 즐기는 붕어빵!",
+          "content": "붕어싸만코는 30년이 넘는 세월 동안 여름 뿐만 아니라 사계절 사랑받는 대한민국 대표 간식으로 자리 잡았으며 '갑붕싸'라는 신조어처럼 시대가 변해도 꾸준한 화제성을 이어가고 있습니다."
+        },
+        {
+          "title": "다양한 식감과 맛으로 온 국민의 취향저격!",
+          "content": "붕어싸만코는 모나카샌드형 아이스크림 판매 1위 브랜드로, 오랜 기간 사랑 받아온 아이스크림입니다."
+        }
+      ]
+    },
+    {
+      "id": "together",
+      "name": "투게더",
+      "category": "icecream",
+      "image": "./images/icecream_together_vanilla.png",
+      "keywords": [
+        "달콤한",
+        "부드러운",
+        "고소한"
+      ],
+      "description": "",
+      "capacity": "900ml",
+      "serving": "기준용량(100ml)당",
+      "calorie": "100kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "45mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "11g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "10g",
+          "daily_value": "10%"
+        },
+        {
+          "name": "지방",
+          "amount": "5g",
+          "daily_value": "9%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "3.5g",
+          "daily_value": "23%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "20mg",
+          "daily_value": "7%"
+        },
+        {
+          "name": "단백질",
+          "amount": "2g",
+          "daily_value": "4%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "1974년 아이스크림의 혁신!",
+          "content": "투게더는 국내 최초 원유로 만든 정통 아이스크림으로,빙과 제품이 주류를 이뤘던 1970년대에 새로운 디저트 트렌드를 만들었습니다.아이스크림에 국산 우유를 2배 농축하여 신선하고 풍부한 맛을 제공하였고, 그 덕분에 오랜 기간 바닐라맛 아이스크림의 대명사이자 온 가족이 함께 먹는 제품으로 사랑 받아 왔습니다."
+        },
+        {
+          "title": "온 국민이 함께, 온 가족이 함께",
+          "content": "'투게더'라는 브랜드명은 '온 국민이 함께, 온 가족이 함께 정통 아이스크림을 즐기자'라는 취지로 사내 공모를 통해 채택되었습니다.지금도 우리 모두가 함께 먹는 투게더는 50년간 변함없이 브랜드의 뜻을 지켜오고 있습니다."
+        },
+        {
+          "title": "혼자서도 맛있게 즐기는 투게더",
+          "content": "출시 이후 대용량 아이스크림을 유지해왔던 투게더는 45년만인 2019년,1인 가구 615만 명 시대에 발맞춰 모두가 투게더를 맛있게 즐길 수 있도록오리지널 레시피 그대로 투게더를 즐길 수 있는 1인용 제품 용량의 '투게더 미니어처'를 출시하였습니다."
+        }
+      ]
+    },
+    {
+      "id": "saenggyultanggyul",
+      "name": "생귤탱귤",
+      "category": "icecream",
+      "image": "./images/icecream_saenggyultanggyul_original.png",
+      "keywords": [
+        "상큼한",
+        "달콤한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "supercone",
+      "name": "슈퍼콘",
+      "category": "icecream",
+      "image": "./images/icecream_supercone.png",
+      "keywords": [
+        "달콤한",
+        "고소한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "150ml",
+      "serving": "기준용량(150ml)당",
+      "calorie": "265kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "90mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "29g",
+          "daily_value": "9%"
+        },
+        {
+          "name": "당류",
+          "amount": "22g",
+          "daily_value": "22%"
+        },
+        {
+          "name": "지방",
+          "amount": "15g",
+          "daily_value": "28%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0.5g 미만",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "10g",
+          "daily_value": "67%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "10mg",
+          "daily_value": "3%"
+        },
+        {
+          "name": "단백질",
+          "amount": "3g",
+          "daily_value": "5%"
+        }
+      ],
+      "accordion": []
+    },
+    {
+      "id": "bbangtoa",
+      "name": "빵또아",
+      "category": "icecream",
+      "image": "./images/icecream_bbangtoa.png",
+      "keywords": [
+        "달콤한",
+        "부드러운",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "banana-milk",
+      "name": "바나나맛우유",
+      "category": "milk",
+      "image": "./images/dairy_banana_milk.png",
+      "keywords": [
+        "달콤한",
+        "부드러운",
+        "든든한"
+      ],
+      "description": "달콤하고 부드러운 풍미를 바나나맛우유로 편하게 즐겨보세요.",
+      "capacity": "240ml",
+      "serving": "기준용량(240ml)당",
+      "calorie": "208kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "110mg",
+          "daily_value": "6%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "27g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "당류",
+          "amount": "27g",
+          "daily_value": "27%"
+        },
+        {
+          "name": "지방",
+          "amount": "8g",
+          "daily_value": "15%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "5g",
+          "daily_value": "33%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "30mg",
+          "daily_value": "10%"
+        },
+        {
+          "name": "단백질",
+          "amount": "7g",
+          "daily_value": "13%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "대한민국을 대표하는 No.1 가공우유",
+          "content": "1974년 출시 후 한결 같은 모습의 바나나맛우유는 달항아리를 모티브로 한국인의 정서에 어울리는 넉넉한 항아리 모양으로 디자인 되었습니다.달콤한 맛과 독특한 생김새로 갖은 별명을 지닌 채, 지금까지도 꾸준히 사랑 받는 제품입니다."
+        },
+        {
+          "title": "높은 원유 함량과 공신력 있는 품질인증",
+          "content": "국내산 원유를 85% 이상 함유하고 있으며, 식품의약품안전처에서 안전하고 깨끗한 관리로 생산, 공급하고 있음을 증명하는 HACCP 인증을 받았습니다."
+        },
+        {
+          "title": "19년 연속 브랜드 파워(K-BPI) 1위",
+          "content": "대한민국 소비생활을 대표하는 각 산업의 제품 및 서비스, 기업의 브랜드 경쟁력 등을 측정하는 대한민국 대표 브랜드 평가제도로, 소비자로부터 우수한 평가를 받아 가공우유 부분 19년 연속 1위로 선정되었습니다."
+        }
+      ]
+    },
+    {
+      "id": "binggrae-milk",
+      "name": "빙그레우유",
+      "category": "milk",
+      "image": "./images/dairy_binggrae_milk.png",
+      "keywords": [
+        "부드러운",
+        "깔끔한"
+      ],
+      "description": "",
+      "capacity": "200ml",
+      "serving": "기준용량(200ml)당",
+      "calorie": "132kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "110mg",
+          "daily_value": "6%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "9g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "9g",
+          "daily_value": "9%"
+        },
+        {
+          "name": "지방",
+          "amount": "8g",
+          "daily_value": "15%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "5g",
+          "daily_value": "33%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "30mg",
+          "daily_value": "10%"
+        },
+        {
+          "name": "단백질",
+          "amount": "6g",
+          "daily_value": "11%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "200mg",
+          "daily_value": "29%"
+        }
+      ],
+      "accordion": []
+    },
+    {
+      "id": "protein-cheese",
+      "name": "프로틴 고단백 치즈",
+      "category": "milk",
+      "image": "./images/dairy_protein_cheese.png",
+      "keywords": [
+        "고소한",
+        "진한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "270g",
+      "serving": "기준용량(1매)당",
+      "calorie": "55kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "230mg",
+          "daily_value": "12%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "0.1g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "당류",
+          "amount": "0.1g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "지방",
+          "amount": "4g",
+          "daily_value": "7%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0.2g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "포화지방",
+          "amount": "2.7g",
+          "daily_value": "18%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "15mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "단백질",
+          "amount": "4.6g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "123mg",
+          "daily_value": "18%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "국내 최대 단백질 함유 슬라이스 치즈",
+          "content": "슬라이스 1장 당 프로틴 4.6g*24년 2월 국내 소매용 가공 슬라이스 치즈 표시 함량 기준"
+        },
+        {
+          "title": "오직 우유에서 유래한 단백질",
+          "content": "우유 단백질 100%"
+        },
+        {
+          "title": "고칼슘 건강 치즈",
+          "content": "성장기 우리 아이 건강 영양 간식"
+        }
+      ]
+    },
+    {
+      "id": "grilled-protein-cheese",
+      "name": "프로틴 구워먹는 치즈",
+      "category": "milk",
+      "image": "./images/dairy_grilled_protein_cheese.png",
+      "keywords": [
+        "고소한",
+        "진한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "105g",
+      "serving": "기준용량(1팩)당",
+      "calorie": "100kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "291mg",
+          "daily_value": "15%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "0.6g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "당류",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "지방",
+          "amount": "5.5g",
+          "daily_value": "10%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0.2g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "포화지방",
+          "amount": "3g",
+          "daily_value": "20%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "21mg",
+          "daily_value": "7%"
+        },
+        {
+          "name": "단백질",
+          "amount": "12g",
+          "daily_value": "22%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "246mg",
+          "daily_value": "35%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "국내 최대 단백질 함유 구워먹는 치즈",
+          "content": "단백질 함량 33%*24년 2월 국내 소매용 구워먹는 치즈 표시 함량 기준"
+        },
+        {
+          "title": "간편하고 위생적인 '개별 소분 포장'",
+          "content": "(35/1팩) 구워먹는 치즈 1개 內 3팩 구성"
+        },
+        {
+          "title": "오직 우유에서 유래한 단백질",
+          "content": "우유 단백질 100%"
+        }
+      ]
+    },
+    {
+      "id": "strawberry-milk",
+      "name": "딸기맛우유",
+      "category": "milk",
+      "image": "./images/dairy_strawberry_milk.png",
+      "keywords": [
+        "달콤한",
+        "부드러운",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "yoplait-original",
+      "name": "요플레 오리지널",
+      "category": "yogurt",
+      "image": "./images/yoplait_original_strawberry.png",
+      "keywords": [
+        "달콤한",
+        "상큼한",
+        "부드러운"
+      ],
+      "description": "",
+      "capacity": "85g",
+      "serving": "기준용량(85g)당",
+      "calorie": "75kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "60mg",
+          "daily_value": "3%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "9.4g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "5.9g",
+          "daily_value": "6%"
+        },
+        {
+          "name": "지방",
+          "amount": "2.8g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "1.7g",
+          "daily_value": "11%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "15mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "단백질",
+          "amount": "3g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "100mg",
+          "daily_value": "14%"
+        },
+        {
+          "name": "아연",
+          "amount": "0.4mg",
+          "daily_value": "5%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "Since 1983,  대한민국 Heritage!",
+          "content": "1983년 국내 시장에 처음 선보인 요플레는 세계 최대 발효유 업체 중 하나인 프랑스 SODIMA사와의 기술 제휴를 통해서 만들어진 제품입니다. 딸기, 산딸기, 살구, 오렌지 4가지 맛으로 출시된 요플레의 등장은 액상 요구르트 일색이던 국내 시장에서 정통 호상 발효유의 시작을 알리는 신호탄이 되었습니다."
+        },
+        {
+          "title": "요거트의 대명사 '요플레'의 시그니처 브랜드",
+          "content": "약 40년 역사의 요플레는 2000년대에 들어서면서 떠먹는 요거트를 지칭하는 대명사로 사용될 정도로 전 국민의 사랑을 받고 있습니다.요플레의 뛰어난 제품들 가운데 과일 요거트 라인업인 '요플레 오리지널'은 대한민국 떠먹는 발효유의 효시이자, 요플레의 상징과도 같은 존재입니다."
+        },
+        {
+          "title": "줄어든 당 함량으로 업그레이드된 요플레 오리지널",
+          "content": "컵당 500억 유산균과 국내산 딸기, 고함량 원유가 함유된 요플레 오리지널은 남녀노소 모두가 사랑하는 맛있고 건강한 간식입니다. 2024년 12월, 요플레 오리지널은 또 한 번 당 함량을 20% 낮춰 요플레의 뛰어난 맛은 그대로 유지하며 제품을 건강하게 즐길 수 있도록 업그레이드했습니다."
+        }
+      ]
+    },
+    {
+      "id": "yoplait-plain",
+      "name": "요플레 플레인",
+      "category": "yogurt",
+      "image": "./images/yogurt_yoplait_plain.png",
+      "keywords": [
+        "상큼한",
+        "깔끔한",
+        "부드러운"
+      ],
+      "description": "",
+      "capacity": "85g",
+      "serving": "기준용량(85g)당",
+      "calorie": "80kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "60mg",
+          "daily_value": "3%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "10.6g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "4.8g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "지방",
+          "amount": "2.8g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "1.7g",
+          "daily_value": "11%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "15mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "단백질",
+          "amount": "3g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "100mg",
+          "daily_value": "14%"
+        },
+        {
+          "name": "아연",
+          "amount": "0.4mg",
+          "daily_value": "5%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "요거트 본연의 부드러움",
+          "content": "80% 풍부한 원유 함량의 요플레 플레인은 요거트 본연의 부드러움과 진한 맛이 특징이며 단 맛을 줄여 더욱 깔끔한 맛을 자랑합니다."
+        }
+      ]
+    },
+    {
+      "id": "yoplait-greek",
+      "name": "요플레 그릭",
+      "category": "yogurt",
+      "image": "./images/yogurt_yoplait_greek.png",
+      "keywords": [
+        "고소한",
+        "진한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "80g",
+      "serving": "기준용량(80g)당",
+      "calorie": "60kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "35mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "5g",
+          "daily_value": "2%"
+        },
+        {
+          "name": "당류",
+          "amount": "3.3g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "지방",
+          "amount": "2.5g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0.5g 미만",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "1.6g",
+          "daily_value": "11%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "10mg",
+          "daily_value": "3%"
+        },
+        {
+          "name": "단백질",
+          "amount": "4.2g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "130mg",
+          "daily_value": "19%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "맛있고 건강하게 즐기는 그릭요거트",
+          "content": "40여년 발효유 전문가 요플레가 맛있고 건강하게 만들었습니다. 젤라틴 무첨가로 그릭요거트 본연의 부드러움을 살리고, 어린 아이들도 부담없이 먹을 수 있도록 그릭요거트 특유의 시큼함은 줄였습니다. 고단백 저지방 설탕무첨가로(*요플레 그릭 mild 기준) 건강하고 맛있게 식단관리에 활용할 수 있습니다."
+        },
+        {
+          "title": "용량별 라인업으로 다양하게 즐겨요",
+          "content": "가벼운 간식으로 먹기 좋은 80g 소용량, 1인 가구에게 딱인 180g 중용량, 온 가족이 나눠 먹기 좋은 400g, 900g 대용량으로 상황에 따라 필요에 따라 선택하기 좋습니다."
+        },
+        {
+          "title": "과일이 들어가 더욱 맛있는 과일맛 그릭요거트 출시",
+          "content": "2025년 4월 리얼 과육이 들어가 더욱 맛있는 '요플레 그릭 딸기', '요플레 그릭 복숭아'가 출시되었습니다. 한 컵으로 맛있는 과일과 건강한 그릭요거트를 간편하게 즐길 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "yoplait-protein",
+      "name": "요플레 프로틴",
+      "category": "yogurt",
+      "image": "./images/new_yoplait_greek_almond_banana.png",
+      "keywords": [
+        "부드러운",
+        "깔끔한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": [
+        {
+          "title": "요플레에 단백질을 꽉 채웠다!",
+          "content": "국내 최초 단백질 성분이 8% 이상 함유된 고단백질 요거트 요플레 프로틴은 성인 여성 기준 일일 단백질 섭취 필요량의 40%를 충족하고 한 병당 2000억 이상의 유산균을 동시에 챙길 수 있는 있는 제품입니다. 우리 몸에 꼭 필요한 단백질과 유산균을 요플레 프로틴은 국내 프로틴 요거트 시장의 진화를 견인하고 있습니다 (*요플레 프로틴 딸기바나나 210ml 1병 기준)"
+        },
+        {
+          "title": "흡수가 빠른 WPC",
+          "content": "요플레 프로틴의 주원료인 WPC(농축유청단백)는 전문적인 제조과정을 통해 우유 속 단백질의 한 종류인 유청단백질을 순도 80% 이상까지 농축한 프리미엄 원재료입니다. 요플레 프로틴에 들어 있는 WPC은 체내에 빠르게 흡수되어 근육 생성에 도움을 줍니다."
+        },
+        {
+          "title": "BCAA 함량 2,500mg 완전단백질 요거트",
+          "content": "요플레 프로틴은 BCAA 2,500mg을 포함하여 필수 아미노산이 9종이 모두 함유되어있는 완전단백질 요거트입니다. (*요플레 프로틴 딸기바나나 1병 기준)"
+        }
+      ]
+    },
+    {
+      "id": "dr-capsule",
+      "name": "요플레 닥터캡슐",
+      "category": "yogurt",
+      "image": "./images/yogurt_dr_capsule.png",
+      "keywords": [
+        "상큼한",
+        "깔끔한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "130ml",
+      "serving": "기준용량(130ml)당",
+      "calorie": "115kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "80mg",
+          "daily_value": "4%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "18g",
+          "daily_value": "6%"
+        },
+        {
+          "name": "당류",
+          "amount": "9.1g",
+          "daily_value": "9%"
+        },
+        {
+          "name": "지방",
+          "amount": "3.1g",
+          "daily_value": "6%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "2g",
+          "daily_value": "13%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "25mg",
+          "daily_value": "8%"
+        },
+        {
+          "name": "단백질",
+          "amount": "4.2g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "130mg",
+          "daily_value": "19%"
+        },
+        {
+          "name": "아연",
+          "amount": "0.83mg",
+          "daily_value": "10%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "위산에 강한 이중캡슐 유산균으로 1000배 더 강력한 생존율",
+          "content": "1997년 대한민국 최초로 살아서 장까지 가는 이중 캡슐 유산균을 사용하여 발효유 시장에 센세이션을 불러온 닥터캡슐은 위산에 강한 이중캡슐 유산균이 살아서 장까지 가는 제품입니다. 25년 캡슐 사이언스의 따라올 수 없는 노하우와 기술력으로 분말 비피더스 유산균 대비 1000배 더 강력한 생존율을 나타내는 것으로 증명되었습니다. 닥터캡슐만의 '캡슐 사이언스' 를 더욱 건강하고 맛있게 전달하기 위한 진화는 계속됩니다."
+        },
+        {
+          "title": "독점개발 특허유산균 LM1019",
+          "content": "닥터캡슐에는 빙그레 식품연구소와 프로바이오틱스 전문기업 '락토메이슨'이 공동연구하고 개발한 특허유산균 LM1019를 함유하고 있습니다."
+        },
+        {
+          "title": "일상의 면역력과 유산균을 한번에!",
+          "content": "내 몸을 위한 프로바이오틱스와 프리바이오틱스는 물론 정상적인 면역 기능에 필요한 아연이 함유되어 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "pororo-yogurt",
+      "name": "뽀로로와 친구들 요구르트",
+      "category": "yogurt",
+      "image": "./images/yogurt_pororo_friends.png",
+      "keywords": [
+        "달콤한",
+        "상큼한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "80ml",
+      "serving": "기준용량(80ml)당",
+      "calorie": "50kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "30mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "11g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "8g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "1g",
+          "daily_value": "2%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "30mg",
+          "daily_value": "4%"
+        },
+        {
+          "name": "아연",
+          "amount": "2.55mg",
+          "daily_value": "30%"
+        },
+        {
+          "name": "비타민D",
+          "amount": "5μg",
+          "daily_value": "50%"
+        },
+        {
+          "name": "비타민B1",
+          "amount": "0.6mg",
+          "daily_value": "50%"
+        },
+        {
+          "name": "비타민C",
+          "amount": "50mg",
+          "daily_value": "50%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "우리 아이 성장을 위한 멀티비타민 & 프로바이오틱스 요구르트",
+          "content": "뽀로로와 친구들 요구르트에는 활력을 위한 멀티비타민(비타민 B1,C, D 일일권장량의 50%), 면역 기능을 위한 아연, 장 건강을 위한 프로바이오틱스 그리고 성장을 위한 칼슘이 함유되어 있어 성장하는 유아 및 어린이를 위한 안성맞춤 요구르트입니다."
+        },
+        {
+          "title": "어린이 기호식품 품질인증",
+          "content": "어린이 기호식품 품질인증 기준에 적합하도록 당류, 포화지방, 열량을 줄이고 영양성분을 고루 갖춰 식약처의 공식 인증을 받은 제품입니다."
+        },
+        {
+          "title": "뽀로로 친구들을 만나보세요",
+          "content": "뽀로로, 크롱, 에디, 루피, 페티 등 제품 속 다양한 뽀로로 친구들을 만나보실 수 있습니다. (캐릭터 구성은 향료별 상이)"
+        }
+      ]
+    },
+    {
+      "id": "acafela-240",
+      "name": "아카페라 240mL",
+      "category": "coffee",
+      "image": "./images/coffee_acafela_240.png",
+      "keywords": [
+        "진한",
+        "깔끔한"
+      ],
+      "description": "",
+      "capacity": "240ml",
+      "serving": "기준용량(240ml)당",
+      "calorie": "36kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "45mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "8.5g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "7g",
+          "daily_value": "7%"
+        },
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "0.5g",
+          "daily_value": "1%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "국내 최초, 페트 커피 브랜드",
+          "content": "아카페라는 2008년, 국내 최초로 무균 시스템(Asepsys)으로 생산되어 커피 본연의 깊은 향과 맛을 즐길 수 있습니다.다양한 맛과 우수한 품질로 꾸준히 사랑받고 있는 빙그레의 대표 커피 브랜드입니다."
+        },
+        {
+          "title": "대한민국 No.1 PET 커피 브랜드",
+          "content": "*닐슨 Market Track 기준 PET 커피 브랜드 판매액 1위 (2025.01~2025.12)"
+        }
+      ]
+    },
+    {
+      "id": "acafela-sizeup",
+      "name": "아카페라 사이즈업",
+      "category": "coffee",
+      "image": "./images/coffee_acafela_sizeup.png",
+      "keywords": [
+        "진한",
+        "깔끔한",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "350ml",
+      "serving": "기준용량(350ml)당",
+      "calorie": "9kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "30mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "1.7g",
+          "daily_value": "1%"
+        },
+        {
+          "name": "당류",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "0.5g",
+          "daily_value": "1%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "아카페라만의 유니크한 용기 디자인",
+          "content": "TAKE-OUT 컵 디자인을 형상화한 차별화된 용기로 언제 어디서나 함께 즐길 수 있습니다."
+        },
+        {
+          "title": "Down Recipe",
+          "content": "당류 DOWN으로 부담 없이 즐길 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "acafela-specialty",
+      "name": "아카페라 스페셜티",
+      "category": "coffee",
+      "image": "./images/coffee_acafela_specialty.png",
+      "keywords": [
+        "진한",
+        "깔끔한"
+      ],
+      "description": "",
+      "capacity": "460ml",
+      "serving": "기준용량(460ml)당",
+      "calorie": "12kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "80mg",
+          "daily_value": "4%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "2g",
+          "daily_value": "1%"
+        },
+        {
+          "name": "당류",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "1g",
+          "daily_value": "2%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "스페셜티 등급의 원두 사용",
+          "content": "스페셜티 커피 협회(SCA)의 기준에 따라 100점 중 80점 이상을 받은 우수한 등급의 원두를 사용하여, 각 나라별 원두의 특징에 따라 취향에 맞게 골라 마실 수 있는 차별화된 커피 브랜드입니다."
+        },
+        {
+          "title": "워터프레스 방식 추출로 원산지 고유의 향과 맛을 완성",
+          "content": "원두 고유의 개성이 직접적으로 표현될 수 있는 빙그레만의 독자적인 커피 추출 기술인 '워터프레스' 방식을 사용하여 스페셜티 원두의 깊고 풍부한 향미를 완성하였습니다."
+        }
+      ]
+    },
+    {
+      "id": "acafela-specialty-cup",
+      "name": "아카페라 스페셜티 CUP",
+      "category": "coffee",
+      "image": "./images/coffee_acafela_specialty_cup.png",
+      "keywords": [
+        "진한",
+        "부드러운",
+        "든든한"
+      ],
+      "description": "",
+      "capacity": "300ml",
+      "serving": "기준용량(300ml)당",
+      "calorie": "164kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "70mg",
+          "daily_value": "4%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "23g",
+          "daily_value": "7%"
+        },
+        {
+          "name": "당류",
+          "amount": "20g",
+          "daily_value": "20%"
+        },
+        {
+          "name": "지방",
+          "amount": "5.5g",
+          "daily_value": "10%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "3.5g",
+          "daily_value": "23%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "20mg",
+          "daily_value": "7%"
+        },
+        {
+          "name": "단백질",
+          "amount": "5.5g",
+          "daily_value": "10%"
+        }
+      ],
+      "accordion": []
+    },
+    {
+      "id": "acafela-simply",
+      "name": "아카페라 심플리",
+      "category": "coffee",
+      "image": "./images/coffee_acafela_simply.png",
+      "keywords": [
+        "깔끔한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "400ml",
+      "serving": "기준용량(400ml)당",
+      "calorie": "16kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "40mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "2.5g",
+          "daily_value": "1%"
+        },
+        {
+          "name": "당류",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "지방",
+          "amount": "0.3g",
+          "daily_value": "1%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "0.7g",
+          "daily_value": "1%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "아카페라 최초의 무라벨 커피",
+          "content": "환경을 생각하는 아카페라 심플리는 라벨을 없애 폐비닐 발생을 줄이고, 간편하게 분리배출이 가능하도록 만들어진 아카페라 최초의 무라벨 커피입니다."
+        },
+        {
+          "title": "카페인이나 당 걱정 없이 누구나 즐길 수 있는 진하고 깔끔한 맛",
+          "content": "디카페인 아메리카노와 로어슈거 라떼로, 카페인이나 당에 대해 민감한 분들도 누구나 진하고 깔끔한 맛의 커피를 즐길 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "ttaom",
+      "name": "따옴",
+      "category": "drink",
+      "image": "./images/beverage_ttaom.png",
+      "keywords": [
+        "상큼한",
+        "깔끔한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "235ml",
+      "serving": "기준용량(235ml)당",
+      "calorie": "105kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "30mg",
+          "daily_value": "2%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "25g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "당류",
+          "amount": "21g",
+          "daily_value": "21%"
+        },
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "1g",
+          "daily_value": "2%"
+        },
+        {
+          "name": "비타민C",
+          "amount": "36mg",
+          "daily_value": "36%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "100% 프리미엄 냉장주스",
+          "content": "따옴은 엄선한 과일을 꽉 채워, 과일 그대로의 맛을 살린 100% 프리미엄 냉장주스입니다. 냉장 과일 주스를 시작으로 좀 더 간편히 즐길 수 있는 따옴ORGANIC 상온 과채 주스, 더 나아가 과일 맛을 살린 아이스크림까지 브랜드를 확장해 나가고 있습니다."
+        },
+        {
+          "title": "신선한 과일 그대로, 무첨가로 더 깔끔하게",
+          "content": "색소, 증점제, 보존료, 안정제 무첨가"
+        }
+      ]
+    },
+    {
+      "id": "ttaom-organic",
+      "name": "따옴 유기농",
+      "category": "drink",
+      "image": "./images/beverage_ttaom_organic.png",
+      "keywords": [
+        "상큼한",
+        "깔끔한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "120ml",
+      "serving": "기준용량(120ml)당",
+      "calorie": "44kcal",
+      "nutrition": [
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "나트륨",
+          "amount": "10mg",
+          "daily_value": "1%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "11g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "당류",
+          "amount": "11g",
+          "daily_value": "11%"
+        },
+        {
+          "name": "비타민C",
+          "amount": "20mg",
+          "daily_value": "20%"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "프리미엄 유기농 주스",
+          "content": "화학비료나 합성농약을 사용하지 않은 토양에서 재배한 유기농 원재료"
+        },
+        {
+          "title": "풍부한 비타민C(20mg)",
+          "content": "맛도 건강도 균형있게 챙기는 믿고 마실 수 있는 주스"
+        }
+      ]
+    },
+    {
+      "id": "ttaom-plus",
+      "name": "따옴 Plus",
+      "category": "drink",
+      "image": "./images/beverage_ttaom_plus.png",
+      "keywords": [
+        "상큼한",
+        "깔끔한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "220ml",
+      "serving": "기준용량(220ml)당",
+      "calorie": "108kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "66mg",
+          "daily_value": "3%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "26g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "당류",
+          "amount": "21g",
+          "daily_value": "21%"
+        },
+        {
+          "name": "지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0g",
+          "daily_value": "0%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "0.9g",
+          "daily_value": "2%"
+        },
+        {
+          "name": "식이섬유",
+          "amount": "3.3g",
+          "daily_value": "13%"
+        }
+      ],
+      "accordion": []
+    },
+    {
+      "id": "juicycool-thefit",
+      "name": "쥬시쿨 더핏",
+      "category": "drink",
+      "image": "./images/beverage_juicycool_ade.png",
+      "keywords": [
+        "달콤한",
+        "상큼한",
+        "가벼운"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "plant-based-bayu",
+      "name": "식물성 바유",
+      "category": "drink",
+      "image": "./images/beverage_plant_based_bayu.png",
+      "keywords": [
+        "고소한",
+        "부드러운",
+        "깔끔한"
+      ],
+      "description": "",
+      "capacity": "",
+      "serving": "",
+      "calorie": "",
+      "nutrition": [],
+      "accordion": []
+    },
+    {
+      "id": "oatly",
+      "name": "오틀리",
+      "category": "drink",
+      "image": "./images/beverage_oatly.png",
+      "keywords": [
+        "고소한",
+        "부드러운",
+        "깔끔한"
+      ],
+      "description": "",
+      "capacity": "250ml",
+      "serving": "기준용량(250ml)당",
+      "calorie": "110kcal",
+      "nutrition": [
+        {
+          "name": "나트륨",
+          "amount": "100mg",
+          "daily_value": "5%"
+        },
+        {
+          "name": "탄수화물",
+          "amount": "17g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "당류",
+          "amount": "10g",
+          "daily_value": "10%"
+        },
+        {
+          "name": "식이섬유",
+          "amount": "2g",
+          "daily_value": "8%"
+        },
+        {
+          "name": "지방",
+          "amount": "3.8g",
+          "daily_value": "7%"
+        },
+        {
+          "name": "트랜스지방",
+          "amount": "0g",
+          "daily_value": "-"
+        },
+        {
+          "name": "포화지방",
+          "amount": "0.5g",
+          "daily_value": "3%"
+        },
+        {
+          "name": "콜레스테롤",
+          "amount": "0mg",
+          "daily_value": "0%"
+        },
+        {
+          "name": "단백질",
+          "amount": "3g",
+          "daily_value": "5%"
+        },
+        {
+          "name": "칼슘",
+          "amount": "300mg",
+          "daily_value": "43%"
+        },
+        {
+          "name": "비타민B2",
+          "amount": "0.52mg",
+          "daily_value": "37%"
+        },
+        {
+          "name": "비타민D",
+          "amount": "1.25μg",
+          "daily_value": "13%"
+        },
+        {
+          "name": "비타민B12",
+          "amount": "0.95μg",
+          "daily_value": "40%"
+        }
+      ],
+      "accordion": []
+    }
+  ]
+}
