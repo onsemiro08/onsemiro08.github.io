@@ -111,6 +111,10 @@
     ],
     "links": [
       {
+        "label": "작업 보고서 링크 :",
+        "url": "https://app.notion.com/p/CMS-Case-Study-41506f4560de81439742d468bea0f03a?source=copy_link"
+      },
+      {
         "label": "사이트 링크 :",
         "url": "https://kmhux0728.free.je/",
         "target": "_blank"
