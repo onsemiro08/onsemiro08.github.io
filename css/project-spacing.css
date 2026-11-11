@@ -1,0 +1,7 @@
+.project_visual > div {
+    margin: 0;
+}
+
+.project_visual > div + div {
+    margin-top: 30px;
+}

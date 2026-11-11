@@ -1,0 +1,206 @@
+[
+  {
+    "id": "project_bingrae",
+    "menu": "Bingrae",
+    "images": [
+      {
+        "className": "Bingrae_visual_01",
+        "src": "./img/binggrae_visual_01.jpg",
+        "alt": "빙그레 메인 배너"
+      },
+      {
+        "className": "Bingrae_visual_02",
+        "src": "./img/binggrae_visual_02.jpg",
+        "alt": "빙그레 프로덕트"
+      },
+      {
+        "className": "Bingrae_visual_03",
+        "src": "./img/binggrae_visual_03.jpg",
+        "alt": "빙그레 뉴스"
+      }
+    ],
+    "title": "빙그레 리뉴얼",
+    "members": "1명",
+    "period": "1주일",
+    "ai": "O / 20%",
+    "aiBreakdown": "(기획 10%, 디자인 10%)",
+    "skillLines": [
+      "HTML, CSS, JavaScript,",
+      "Figma, ChatGPT, Hailuo AI"
+    ],
+    "links": [
+      {
+        "label": "기획서 링크 :",
+        "url": "./pdf/binggrae_proposal_plan.pdf"
+      },
+      {
+        "label": "리뉴얼 사이트 링크 :",
+        "url": "./binggrae/index.html"
+      }
+    ]
+  },
+  {
+    "id": "project_tissot",
+    "menu": "Tissot",
+    "images": [
+      {
+        "className": "tissot_visual_01",
+        "src": "./img/tissot_visual_01.jpg",
+        "alt": "티쏘 메인"
+      },
+      {
+        "className": "tissot_visual_02",
+        "src": "./img/tissot_visual_02.jpg",
+        "alt": "티쏘 상품 목록"
+      },
+      {
+        "className": "tissot_visual_03",
+        "src": "./img/tissot_visual_03.jpg",
+        "alt": "티쏘 서비스"
+      }
+    ],
+    "title": "Tissot 리뉴얼",
+    "members": "1명",
+    "period": "1주일",
+    "ai": "O / 20%",
+    "aiBreakdown": "(기획 10%, 디자인 10%)",
+    "skillLines": [
+      "HTML, CSS, JavaScript,",
+      "Figma, ChatGPT"
+    ],
+    "links": [
+      {
+        "label": "기획서 링크 :",
+        "url": "./pdf/tissot_proposal_plan.pdf"
+      },
+      {
+        "label": "리뉴얼 사이트 링크 :",
+        "url": "./tissot/index.html"
+      }
+    ]
+  },
+  {
+    "id": "project_hospital",
+    "menu": "Hospital",
+    "images": [
+      {
+        "className": "hospital_visual_01",
+        "src": "./img/hospital_visual_01.jpg",
+        "alt": "선수촌 병원 메인 화면"
+      },
+      {
+        "className": "hospital_visual_02",
+        "src": "./img/hospital_visual_02.jpg",
+        "alt": "선수촌 병원 공지사항 목록"
+      },
+      {
+        "className": "hospital_visual_03",
+        "src": "./img/hospital_visual_03.jpg",
+        "alt": "선수촌 병원 공지사항 상세"
+      }
+    ],
+    "title": "선수촌 병원 CMS 구축",
+    "sub_title":"기존 HTML 사이트를 그누보드 기반으로 전환, 공지사항 CMS 연동 및 서버 배포",
+    "members": "1명",
+    "period": "2일",
+        "ai": "O / 20%",
+    "aiBreakdown": "코드 검토 10%",
+    "skillLines": [
+      "HTML, CSS, JavaScript,",
+      "PHP, MySQL, Gnuboard5, FileZilla, ChatGPT"
+    ],
+    "links": [
+      {
+        "label": "사이트 링크 :",
+        "url": "https://kmhux0728.free.je/",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "id": "project_jeep",
+    "menu": "Jeep",
+    "images": [
+      {
+        "className": "jeep_visual_01",
+        "src": "./img/jeep_visual_01.jpg",
+        "alt": "지프 그랜드 체로키 배너"
+      },
+      {
+        "className": "jeep_visual_02",
+        "src": "./img/jeep_visual_02.jpg",
+        "alt": "지프 운전자 지원 기능"
+      },
+      {
+        "className": "jeep_visual_03",
+        "src": "./img/jeep_visual_03.jpg",
+        "alt": "지프 주행 보조 시스템"
+      }
+    ],
+    "title": "Jeep 리뉴얼",
+    "titleClass": "project_title_name",
+    "roles": [
+      {
+        "label": "기획 :",
+        "value": "기아 사이트 분석 자료 제작,",
+        "extraLines": [
+          "콘텐츠 방향 공동 논의"
+        ]
+      },
+      {
+        "label": "디자인 :",
+        "value": "Footer / Main News / Gallery / 안전·기술 서브 페이지"
+      },
+      {
+        "label": "퍼블리싱 :",
+        "value": "Footer / News / Gallery"
+      }
+    ],
+    "members": "4명",
+    "period": "2주일",
+    "ai": "O / 20%",
+    "aiBreakdown": "(기획 10%, 디자인 10%)",
+    "skillLines": [
+      "HTML, CSS, JavaScript,",
+      "Figma, ChatGPT"
+    ],
+    "links": [
+      {
+        "label": "리뉴얼 사이트 링크 :",
+        "url": "https://www.ssamsweb.com/20261013/team_1/Jeep/index.html"
+      }
+    ]
+  },
+  {
+    "id": "project_innisfree",
+    "menu": "Innisfree",
+    "images": [
+      {
+        "className": "innisfree_visual_01",
+        "src": "./img/Innisfree_visual.png",
+        "alt": "이니스프리 그린티 수분 기획전 PC 디자인"
+      }
+    ],
+    "title": "INNISFREE 그린티 기획전",
+    "members": "1명",
+    "period": "1주일",
+    "ai": "O / 20%",
+    "aiBreakdown": "(기획 10%, 디자인 10%)",
+    "skillLines": [
+      "HTML, CSS, JavaScript,",
+      "Figma, ChatGPT, Cafe24"
+    ],
+    "links": [
+      {
+        "label": "기획서 링크 :",
+        "url": "https://onsemiro08.github.io/pdf/innisfree_Case_Study.pdf",
+        "target": "_blank"
+      },
+      {
+        "label": "기획전 사이트 링크 :",
+        "url": "https://kmh0125.cafe24.com/greentea.html",
+        "target": "_blank"
+      }
+    ]
+  }
+]

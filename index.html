@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/project-spacing.css">
 </head>
 
 <body>
@@ -34,12 +35,7 @@
             </nav>
             <nav class="project_list">
                 <h2 class="project_title">Project List</h2>
-                <ul>
-                    <li><a href="#project_innisfree" class="menu_intro">01. Innisfree</a></li>
-                    <li><a href="#project_bingrae" class="menu_intro">02. Bingrae</a></li>
-                    <li><a href="#project_tissot" class="menu_intro">03. Tissot</a></li>
-                    <li><a href="#project_jeep" class="menu_intro">04. Jeep</a></li>
-                </ul>
+                <ul id="project_menu"></ul>
             </nav>
             <div class="sidebar_info">
                 <small>© 2026 김미향</small>
@@ -69,137 +65,12 @@
                     <img src="./img/skill_figma.svg" alt="figma svg 아이콘">
                     <img src="./img/skill_photoshop.svg" alt="photoshop svg 아이콘">
                 </div>
-                <h2 class="about_deployment">Deployment</h2>
-                <p class="deployment_text">Cafe24 (Web Hosting)</p>
+                <h2 class="about_deployment">CMS / Deployment</h2>
+                <p class="deployment_text">Gnuboard5 (CMS)<br>
+                    Cafe24, InfinityFree (Web Hosting)</p>
             </div>
         </div>
-        <div id="project_innisfree" class="page_section">
-            <div class="project_wrap radius_20 padding_40">
-                <div class="project_visual">
-                    <div class="innisfree_visual_01">
-                        <img src="./img/Innisfree_visual.png" alt="이니스프리 그린티 수분 기획전 PC 디자인">
-                    </div>
-                </div>
-                <div class="project_text">
-                    <p><span>프로젝트 명 :</span> INNISFREE 그린티 기획전</p>
-                    <p><span>인원 :</span> 1명</p>
-                    <p><span>작업 기간 :</span> 1주일</p>
-                    <div class="ai_info">
-                        <p><span>AI 사용 여부 / 빈도 :</span> O / 20%</p>
-                        <p>(기획 10%, 디자인 10%)</p>
-                        <p><span>사용 스킬 :</span> HTML, CSS, JavaScript,<br>
-                            Figma, ChatGPT, Cafe24</p>
-                    </div>
-                    <div class="project_links">
-                        <p><span>기획서 링크 :</span>
-                            <a href="https://onsemiro08.github.io/pdf/innisfree_Case_Study.pdf" target="_blank" rel="noopener noreferrer">VIEW ↗</a>
-                        </p>
-                        <p><span>기획전 사이트 링크 :</span>
-                            <a href="https://kmh0125.cafe24.com/greentea.html" target="_blank" rel="noopener noreferrer">VIEW ↗</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="project_bingrae" class="page_section">
-            <div class="project_wrap radius_20 padding_40">
-                <div class="project_visual">
-                    <div class="Bingrae_visual_01">
-                        <img src="./img/binggrae_visual_01.jpg" alt="빙그레 메인 배너">
-                    </div>
-                    <div class="Bingrae_visual_02">
-                        <img src="./img/binggrae_visual_02.jpg" alt="빙그레 프로덕트">
-                    </div>
-                    <div class="Bingrae_visual_03">
-                        <img src="./img/binggrae_visual_03.jpg" alt="빙그레 뉴스">
-                    </div>
-                </div>
-                <div class="project_text">
-                    <p><span>프로젝트 명 :</span> 빙그레 리뉴얼</p>
-                    <p><span>인원 :</span> 1명</p>
-                    <p><span>작업 기간 :</span> 1주일</p>
-                    <div class="ai_info">
-                        <p><span>AI 사용 여부 / 빈도 :</span> O / 20%</p>
-                        <p>(기획 10%, 디자인 10%)</p>
-                        <p><span>사용 스킬 :</span> HTML, CSS, JavaScript,<br>
-                            Figma, ChatGPT, Hailuo AI</p>
-                    </div>
-                    <div class="project_links">
-                        <p><span>기획서 링크 :</span> <a href="./pdf/binggrae_proposal_plan.pdf">VIEW ↗</a></p>
-                        <p><span>리뉴얼 사이트 링크 :</span> <a href="./binggrae/index.html">VIEW ↗</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="project_tissot" class="page_section">
-            <div class="project_wrap radius_20 padding_40">
-                <div class="project_visual">
-                    <div class="tissot_visual_01">
-                        <img src="./img/tissot_visual_01.jpg" alt="티쏘 메인">
-                    </div>
-                    <div class="tissot_visual_02">
-                        <img src="./img/tissot_visual_02.jpg" alt="티쏘 상품 목록">
-                    </div>
-                    <div class="tissot_visual_03">
-                        <img src="./img/tissot_visual_03.jpg" alt="티쏘 서비스">
-                    </div>
-                </div>
-                <div class="project_text">
-                    <p><span>프로젝트 명 :</span> Tissot 리뉴얼</p>
-                    <p><span>인원 :</span> 1명</p>
-                    <p><span>작업 기간 :</span> 1주일</p>
-                    <div class="ai_info">
-                        <p><span>AI 사용 여부 / 빈도 :</span> O / 20%</p>
-                        <p>(기획 10%, 디자인 10%)</p>
-                        <p><span>사용 스킬 :</span> HTML, CSS, JavaScript,<br>
-                            Figma, ChatGPT</p>
-                    </div>
-                    <div class="project_links">
-                        <p><span>기획서 링크 :</span> <a href="./pdf/tissot_proposal_plan.pdf">VIEW ↗</a></p>
-                        <p><span>리뉴얼 사이트 링크 :</span> <a href="./tissot/index.html">VIEW ↗</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="project_jeep" class="page_section">
-            <div class="project_wrap radius_20 padding_40">
-                <div class="project_visual">
-                    <div class="jeep_visual_01">
-                        <img src="./img/jeep_visual_01.jpg" alt="지프 그랜드 체로키 배너">
-                    </div>
-                    <div class="jeep_visual_02">
-                        <img src="./img/jeep_visual_02.jpg" alt="지프 운전자 지원 기능">
-                    </div>
-                    <div class="jeep_visual_03">
-                         <img src="./img/jeep_visual_03.jpg" alt="지프 주행 보조 시스템">
-                    </div>
-                </div>
-                <div class="project_text">
-                    <p class="project_title_name"><span>프로젝트 명 :</span> Jeep 리뉴얼</p>
-                    <p><span>기획 :</span> 기아 사이트 분석 자료 제작,<br>
-                        콘텐츠 방향 공동 논의<br>
-                        <span>디자인 :</span> Footer / Main News / Gallery / 안전·기술 서브 페이지<br>
-                        <span>퍼블리싱 :</span> Footer / News / Gallery
-                    </p>
-                    <div class="project_role">
-                    <p><span>인원 :</span> 4명</p>
-                    <p><span>작업 기간 :</span> 2주일</p>
-                    </div>
-                    <div class="ai_info">
-                        <p><span>AI 사용 여부 / 빈도 :</span> O / 20%</p>
-                        <p>(기획 10%, 디자인 10%)</p>
-                        <p><span>사용 스킬 :</span> HTML, CSS, JavaScript,<br>
-                            Figma, ChatGPT</p>
-                    </div>
-                    <div class="project_links">
-                        <p><span>리뉴얼 사이트 링크 :</span> <a href="https://www.ssamsweb.com/20261013/team_1/Jeep/index.html">VIEW ↗</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="projects_container"></div>
 
         <div id="end" class="page_section">
             <div class="end_info project_info radius_20 padding_40">
@@ -233,7 +104,7 @@
                 </p>
                 <p class="site_info">
                     Last updated: November 11, 2026<br>
-                    Update: INNISFREE 기획전 프로젝트 추가
+                    Update: 선수촌 병원 CMS 구축 및 배포 프로젝트 추가
                 </p>
             </div>
         </div>
@@ -246,6 +117,6 @@
     </div>
     </div>
     <script src="./js/jquery-4.0.0.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/projects.js"></script>
 </body>
 </html>

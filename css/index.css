@@ -27,8 +27,7 @@
 
 .project_info {
     width: 100%;
-    min-height: 331px;
-    height: auto;
+    height: 331px;
     border: 1px solid #333;
 }
 
@@ -66,17 +65,6 @@
     width: 40px;
     height: 40px;
     display: block;
-}
-
-.about_deployment {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-top: 30px;
-}
-
-.deployment_text {
-    font-size: 1.25rem;
-    margin-top: 12px;
 }
 
 .site_info {
@@ -127,9 +115,25 @@
     margin: 30px 0;
 }
 
+.hospital_visual_02 {
+    margin: 30px 0;
+}
+
 .project_text {
     width: 483px;
     font-size: 1.75rem;
+}
+
+.project_subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-top: 10px;
+}
+
+.deployment_text{
+    margin-top:15px;
+    font-size:1.35rem;
 }
 
 .project_text span {
@@ -160,6 +164,7 @@
     justify-content: right;
 }
 
+
 /* 엔드 섹션 끝 */
 
 @media all and (max-width: 1679px) and (min-width: 1280px) {
@@ -183,12 +188,12 @@
 }
 
 @media all and (max-width:1279px) and (min-width:960px) {
+
     .about_name {
         font-size: 1.5rem;
     }
 
-    .about_skill,
-    .about_deployment {
+    .about_skill {
         font-size: 1.5rem;
     }
 
@@ -252,6 +257,7 @@
         top: 0;
         left: 0;
         width: 100%;
+
         background-color: white;
         z-index: 999;
         height: 75px;
@@ -341,10 +347,6 @@
     }
 
     .about_name {
-        font-size: 1.5rem;
-    }
-
-    .about_deployment {
         font-size: 1.5rem;
     }
 
