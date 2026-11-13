@@ -79,49 +79,54 @@
       }
     ]
   },
-  {
-    "id": "project_hospital",
-    "menu": "Hospital",
-    "images": [
-      {
-        "className": "hospital_visual_01",
-        "src": "./img/hospital_visual_01.jpg",
-        "alt": "선수촌 병원 메인 화면"
-      },
-      {
-        "className": "hospital_visual_02",
-        "src": "./img/hospital_visual_02.jpg",
-        "alt": "선수촌 병원 공지사항 목록"
-      },
-      {
-        "className": "hospital_visual_03",
-        "src": "./img/hospital_visual_03.jpg",
-        "alt": "선수촌 병원 공지사항 상세"
-      }
-    ],
-    "title": "선수촌 병원 CMS 구축",
-    "sub_title":"기존 HTML 사이트를 그누보드 기반으로 전환, 공지사항 CMS 연동 및 서버 배포",
-    "members": "1명",
-    "period": "2일",
-        "ai": "O / 20%",
-    "aiBreakdown": "코드 검토 10%",
-    "skillLines": [
-      "HTML, CSS, JavaScript,",
-      "PHP, MySQL, Gnuboard5, FileZilla, ChatGPT"
-    ],
-    "links": [
-      {
-        "label": "작업 보고서 링크 :",
-        "url": "https://app.notion.com/p/CMS-Case-Study-41506f4560de81439742d468bea0f03a?source=copy_link",
-        "target": "_blank"
-      },
-      {
-        "label": "사이트 링크 :",
-        "url": "https://kmhux0728.free.je/",
-        "target": "_blank"
-      }
-    ]
-  },
+{
+  "id": "project_hospital",
+  "menu": "Hospital",
+  "images": [
+    {
+      "className": "hospital_visual_01",
+      "src": "./img/hospital_visual_01.jpg",
+      "alt": "선수촌병원 리뉴얼 메인 화면"
+    },
+    {
+      "className": "hospital_visual_02",
+      "src": "./img/hospital_visual_02.jpg",
+      "alt": "선수촌병원 진료센터 및 이용 안내"
+    },
+    {
+      "className": "hospital_visual_03",
+      "src": "./img/hospital_visual_03.jpg",
+      "alt": "선수촌병원 게시판 CMS 연동"
+    }
+  ],
+  "title": "선수촌병원 홈페이지 리뉴얼 및 CMS 구축",
+  "sub_title": "기존 웹사이트의 정보 구조와 UI를 개선하고, 그누보드5 게시판 연동 및 서버 배포까지 구현",
+  "members": "1명",
+  "period": "4일",
+  "ai": "AI 활용",
+  "aiBreakdown": "메인 비주얼 생성, 레퍼런스 분석, 코드 작성 및 검토 보조",
+  "skillLines": [
+    "Figma, HTML, CSS, JavaScript, jQuery",
+    "PHP, MySQL, Gnuboard5, FileZilla, ChatGPT"
+  ],
+  "links": [
+    {
+      "label": "작업 보고서 링크 :",
+      "url": "https://app.notion.com/p/CMS-Case-Study-41506f4560de81439742d468bea0f03a?source=copy_link",
+      "target": "_blank"
+    },
+    {
+      "label": "기존 사이트 링크 :",
+      "url": "https://kmhux0728.free.je/",
+      "target": "_blank"
+    },
+    {
+      "label": "리뉴얼 사이트 링크 :",
+      "url": "https://kmhux0728.free.je/renewal/",
+      "target": "_blank"
+    }
+  ]
+},
   {
     "id": "project_jeep",
     "menu": "Jeep",
