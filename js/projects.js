@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="project_wrap radius_20 padding_40">
                 <div class="project_visual">${images}
                 </div>
-                <div class="project_text">
                     <div class="project_text">
                         <p${project.titleClass ? ` class="${escapeHTML(project.titleClass)}"` : ""}><span>프로젝트 명 :</span> ${escapeHTML(project.title)}</p>
                         ${project.sub_title ? `<p class="project_subtitle">${escapeHTML(project.sub_title)}</p>` : ""}
