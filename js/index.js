@@ -1,16 +1,22 @@
 $('.right_area').on('scroll', function () {
     let scrollTop = $(this).scrollTop();
+    let containerTop = $(this).offset().top;
 
     $('.page_section').each(function () {
-        let sectionTop = $(this).position().top + scrollTop;
+        let sectionTop = $(this).offset().top - containerTop + scrollTop;
         let sectionHeight = $(this).outerHeight();
         let sectionId = $(this).attr('id');
 
         if (scrollTop >= sectionTop && scrollTop < sectionTop + sectionHeight) {
             $('.project_index a, .project_list a').removeClass('active');
-            $('a[href="#' + sectionId + '"]').addClass('active');
 
-            if (sectionId === 'project_bingrae' || sectionId === 'project_tissot' || sectionId === 'project_jeep') {
+            $('.project_list a[href="#' + sectionId + '"]').addClass('active');
+
+            if (sectionId === 'about') {
+                $('.project_index a[href="#about"]').addClass('active');
+            } else if (sectionId === 'end') {
+                $('.project_index a[href="#end"]').addClass('active');
+            } else {
                 $('.project_index a[href="#project_bingrae"]').addClass('active');
             }
         }
