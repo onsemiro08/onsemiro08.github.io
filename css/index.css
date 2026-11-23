@@ -216,7 +216,7 @@ font-weight: 500;
     }
 
     #projects_container > .page_section:nth-child(even) .project_text {
-    text-align: right;
+        text-align: right;
     }
 }
 
