@@ -190,10 +190,9 @@ font-weight: 500;
     position: absolute;
     right: 40px;
     bottom: 40px;
-    width: calc(100% - 160px);
+    width: calc(100% - 300px);
     text-align: right;
 }
-
 
 /* 엔드 섹션 끝 */
 
