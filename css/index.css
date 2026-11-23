@@ -204,6 +204,10 @@ font-weight: 500;
     }
 }
 
+#project_tissot .project_text {
+    text-align: right;
+}
+
 @media all and (max-width: 1279px) and (min-width: 960px) {
     .about_name {
         font-size: 1.5rem;
@@ -409,6 +413,7 @@ font-weight: 500;
 }
 
 /* 모바일 끝 */
+
 
 
 
