@@ -142,8 +142,11 @@
     margin-top: 10px;
 }
 
+.about_deployment{
+ margin:15px 0;
+}
+
 .deployment_text {
-    margin-top: 15px;
     font-size: 1.35rem;
 }
 
@@ -405,6 +408,7 @@
 }
 
 /* 모바일 끝 */
+
 
 
 
