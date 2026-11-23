@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                     ${textRow("인원 :", project.members)}
                     ${textRow("작업 기간 :", project.period)}
                 </div>` : `
-                ${project.contribution ? textRow("참여 기여도 :", project.contribution) : ""}
                 ${textRow("인원 :", project.members)}
                 ${textRow("작업 기간 :", project.period)}`;
 
