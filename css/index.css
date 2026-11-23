@@ -204,7 +204,7 @@ font-weight: 500;
     }
 }
 
-#project_tissot .project_text {
+#project_tissot, #project_jeep .project_text {
     text-align: right;
 }
 
@@ -413,6 +413,7 @@ font-weight: 500;
 }
 
 /* 모바일 끝 */
+
 
 
 
