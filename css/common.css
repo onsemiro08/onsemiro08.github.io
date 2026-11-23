@@ -128,6 +128,8 @@ button {
     margin-bottom: 60px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Serif+KR:wght@200..900&display=swap');
+
 @media all and (max-width: 1679px) and (min-width: 1280px) {
     .inner {
         width: calc(100% - 80px);
@@ -249,3 +251,4 @@ button {
 }
 
 /* 모바일 끝 */
+
