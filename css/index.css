@@ -1,3 +1,4 @@
+
 #about,
 #end {
     text-align: right;
@@ -95,7 +96,7 @@
     height: auto;
 }
 
-.project_visual>div {
+.project_visual > div {
     width: 100%;
     overflow: hidden;
 }
@@ -131,9 +132,9 @@
     margin-top: 10px;
 }
 
-.deployment_text{
-    margin-top:15px;
-    font-size:1.35rem;
+.deployment_text {
+    margin-top: 15px;
+    font-size: 1.35rem;
 }
 
 .project_text span {
@@ -142,6 +143,9 @@
 
 .project_title_name {
     margin-bottom: 20px;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.4;
 }
 
 .project_role {
@@ -163,7 +167,6 @@
     gap: 60px;
     justify-content: right;
 }
-
 
 /* 엔드 섹션 끝 */
 
@@ -187,8 +190,7 @@
     }
 }
 
-@media all and (max-width:1279px) and (min-width:960px) {
-
+@media all and (max-width: 1279px) and (min-width: 960px) {
     .about_name {
         font-size: 1.5rem;
     }
@@ -257,7 +259,6 @@
         top: 0;
         left: 0;
         width: 100%;
-
         background-color: white;
         z-index: 999;
         height: 75px;
@@ -358,6 +359,10 @@
     .project_text {
         font-size: 1.25rem;
         width: 100%;
+    }
+
+    .project_title_name {
+        font-size: 1.75rem;
     }
 
     .site_info {
