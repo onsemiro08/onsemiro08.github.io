@@ -221,10 +221,6 @@ font-weight: 500;
     }
 }
 
-#projects_container > .page_section:nth-child(even) .project_text {
-    text-align: right !important;
-}
-
 @media all and (max-width: 1279px) and (min-width: 960px) {
     .about_name {
         font-size: 1.5rem;
