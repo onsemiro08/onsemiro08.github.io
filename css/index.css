@@ -33,11 +33,20 @@
 }
 
 .project_preview {
+    position: relative;
     width: 100%;
     height: 646px;
     margin-top: 37px;
     border: 1px solid #333;
 }
+
+.skill_content {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    text-align: right;
+}
+
 
 .about_title {
     font-family: "Noto Serif KR", serif;
@@ -351,6 +360,11 @@
         height: auto;
         margin-top: 60px;
     }
+    
+    .skill_content {
+        position: static;
+        text-align: right;
+    }
 
     .project_text {
         font-size: 1.25rem;
@@ -391,6 +405,7 @@
 }
 
 /* 모바일 끝 */
+
 
 
 
