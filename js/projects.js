@@ -57,15 +57,73 @@ document.addEventListener("DOMContentLoaded", async () => {
         </div>`;
     };
 
+    const studies = [
+        {
+            type: "Visual Study",
+            title: "Personal Portfolio",
+            category: "Typography · Editorial Layout",
+            description: "산세리프 중심의 기존 화면에서 느낀 단조로움을 개선하기 위해 명조체, 비대칭 여백, 타이포그래피 위계를 탐색하고 포트폴리오의 시각적 표현을 다듬었습니다.",
+            image: "./img/portfolio_study_01.jpg",
+            alt: "개인 포트폴리오 디자인 개선 후 화면",
+            image: "./img/portfolio_study_02.jpg",
+            alt: "개인 포트폴리오 디자인 개선 후 화면"
+        }
+    ];
+
+    const renderStudy = (study, index) => `
+        <details class="mini_study" name="mini_studies" ${index === 0 ? "open" : ""}>
+            <summary class="mini_study_summary">
+                <span class="mini_study_number">${String(index + 1).padStart(2, "0")} / ${escapeHTML(study.type)}</span>
+                <span class="mini_study_title">${escapeHTML(study.title)}</span>
+                <span class="mini_study_symbol" aria-hidden="true"></span>
+            </summary>
+            <div class="mini_study_content">
+                <div class="mini_study_visual">
+                    <img src="${escapeHTML(study.image)}" alt="${escapeHTML(study.alt)}">
+                </div>
+                <div class="mini_study_text">
+                    <p class="mini_study_category">${escapeHTML(study.category)}</p>
+                    <p class="mini_project_description">${escapeHTML(study.description)}</p>
+                    <a class="mini_study_footer" href="https://app.notion.com/p/42206f4560de8196b2a9daaff6b45dfe?source=copy_link" target="_blank" rel="noopener noreferrer">
+                        View Design Process ↗
+                    </a>
+                </div>
+            </div>
+        </details>`;
+
     try {
         const response = await fetch("./data/projects.json", { cache: "no-cache" });
         if (!response.ok) throw new Error(`JSON 응답 오류: ${response.status}`);
 
         const projects = await response.json();
 
-        menu.innerHTML = projects.map((project, index) => `<li><a href="#${escapeHTML(project.id)}" class="menu_intro">${String(index + 1).padStart(2, "0")}. ${escapeHTML(project.menu)}</a></li>`).join("");
+        const order = ["project_bingrae", "project_hospital", "project_tissot", "project_jeep", "project_innisfree"];
+        const orderedProjects = order.map((id) => projects.find((project) => project.id === id)).filter(Boolean);
+        const selectedProjects = orderedProjects.slice(0, 2);
+        const otherProjects = orderedProjects.slice(2);
 
-        container.innerHTML = projects.map(renderProject).join("\n");
+        const menuItem = (project, number) => `<li><a href="#${escapeHTML(project.id)}" class="menu_intro">${String(number).padStart(2, "0")}. ${escapeHTML(project.menu)}</a></li>`;
+
+        menu.innerHTML = selectedProjects.map((project, index) => menuItem(project, index + 1)).join("") +
+            '<li><a href="#mini_projects" class="menu_intro">03. Mini Projects</a></li>';
+
+        document.getElementById("other_project_menu").innerHTML = otherProjects.map((project, index) => menuItem(project, index + 4)).join("");
+
+        const miniSection = `<section id="mini_projects" class="page_section">
+            <div class="mini_project_wrap radius_20 padding_40">
+                <div class="mini_project_header">
+                    <h3>Mini Projects</h3>
+                    <span>Design Studies</span>
+                </div>
+                <div class="mini_study_list">
+                    ${studies.map(renderStudy).join("")}
+                </div>
+            </div>
+        </section>`;
+
+        container.innerHTML = selectedProjects.map(renderProject).join("\n") +
+            miniSection +
+            otherProjects.map(renderProject).join("\n");
 
         if (location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)))) {
             document.getElementById(decodeURIComponent(location.hash.slice(1))).scrollIntoView();

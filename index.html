@@ -10,7 +10,6 @@
     <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/project-spacing.css">
 </head>
 
 <body>
@@ -33,9 +32,21 @@
                     <li><a href="#end" class="menu_intro">03. END</a></li>
                 </ul>
             </nav>
-            <nav class="project_list">
-                <h2 class="project_title">Project List</h2>
-                <ul id="project_menu"></ul>
+            <nav class="project_list" aria-label="프로젝트 목록">
+                <div class="project_menu_group">
+                    <h2 class="project_title">Selected Works</h2>
+                    <ul id="project_menu"></ul>
+                </div>
+                <div class="other_works_group">
+                    <button class="other_works_toggle" type="button" aria-expanded="false" aria-controls="other_project_menu">
+                        <span class="project_title">Other Works</span>
+                        <span class="other_works_control" aria-hidden="true">
+                            <span class="other_works_line"></span>
+                            <span class="other_works_action">VIEW ALL <span class="other_works_symbol">+</span></span>
+                        </span>
+                    </button>
+                    <ul id="other_project_menu" hidden></ul>
+                </div>
             </nav>
             <div class="sidebar_info">
                 <small>© 2026 김미향</small>

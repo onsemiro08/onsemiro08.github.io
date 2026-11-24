@@ -1,6 +1,8 @@
+
 $('.right_area').on('scroll', function () {
     let scrollTop = $(this).scrollTop();
     let containerTop = $(this).offset().top;
+    let currentSection = null;
 
     $('.page_section').each(function () {
         let sectionTop = $(this).offset().top - containerTop + scrollTop;
@@ -8,20 +10,67 @@ $('.right_area').on('scroll', function () {
         let sectionId = $(this).attr('id');
 
         if (scrollTop >= sectionTop && scrollTop < sectionTop + sectionHeight) {
-            $('.project_index a, .project_list a').removeClass('active');
-
-            $('.project_list a[href="#' + sectionId + '"]').addClass('active');
-
-            if (sectionId === 'about') {
-                $('.project_index a[href="#about"]').addClass('active');
-            } else if (sectionId === 'end') {
-                $('.project_index a[href="#end"]').addClass('active');
-            } else {
-                $('.project_index a[href="#project_bingrae"]').addClass('active');
-            }
+            currentSection = sectionId;
         }
     });
+
+    if (currentSection) {
+        $('.project_index a, .project_list a').removeClass('active');
+        $('.project_list a[href="#' + currentSection + '"]').addClass('active');
+
+        $('.other_works_toggle').toggleClass(
+            'has_active_project',
+            $('#other_project_menu a[href="#' + currentSection + '"]').length > 0
+        );
+
+        let mainSection;
+
+        if (currentSection === 'about') {
+            mainSection = 'about';
+        } else if (currentSection === 'end') {
+            mainSection = 'end';
+        } else {
+            mainSection = 'project_bingrae';
+        }
+
+        $('.project_index a[href="#' + mainSection + '"]').addClass('active');
+    }
 });
+
+const otherWorksToggle = document.querySelector('.other_works_toggle');
+const otherWorksMenu = document.getElementById('other_project_menu');
+
+if (otherWorksToggle && otherWorksMenu) {
+    const otherWorks = otherWorksMenu.querySelectorAll('a');
+    const count = otherWorks.length;
+    const toggleText = otherWorksToggle.querySelector('.other_works_action');
+
+    function updateToggleText() {
+        const isOpen = otherWorksToggle.getAttribute('aria-expanded') === 'true';
+
+        if (isOpen) {
+            otherWorksMenu.hidden = false;
+            toggleText.innerHTML = 'Show Less <span class="other_works_symbol">−</span>';
+        } else {
+            otherWorksMenu.hidden = true;
+            toggleText.innerHTML = `Show ${count} More Works <span class="other_works_symbol">+</span>`;
+        }
+    }
+
+    updateToggleText();
+
+    otherWorksToggle.addEventListener('click', function () {
+        const isOpen = otherWorksToggle.getAttribute('aria-expanded') === 'true';
+
+        if (isOpen) {
+            otherWorksToggle.setAttribute('aria-expanded', 'false');
+        } else {
+            otherWorksToggle.setAttribute('aria-expanded', 'true');
+        }
+
+        updateToggleText();
+    });
+}
 
 $('.project_intro video').on('ended', function () {
     $('.project_intro').hide();
