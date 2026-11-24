@@ -61,12 +61,22 @@ document.addEventListener("DOMContentLoaded", async () => {
         {
             type: "Visual Study",
             title: "Personal Portfolio",
-            category: "Typography · Editorial Layout",
+            category: "Typography / Editorial Layout",
             description: "산세리프 중심의 기존 화면에서 느낀 단조로움을 개선하기 위해 명조체, 비대칭 여백, 타이포그래피 위계를 탐색하고 포트폴리오의 시각적 표현을 다듬었습니다.",
-            image: "./img/portfolio_study_01.jpg",
-            alt: "개인 포트폴리오 디자인 개선 후 화면",
             image: "./img/portfolio_study_02.jpg",
-            alt: "개인 포트폴리오 디자인 개선 후 화면"
+            alt: "개인 포트폴리오 디자인 개선 후 화면",
+            link: "https://app.notion.com/p/42206f4560de8196b2a9daaff6b45dfe",
+            linkLabel: "View Design Process"
+        },
+        {
+            type: "Development Study",
+            title: "Hospital CMS",
+            category: "PHP / MySQL / Gnuboard5",
+            description: "기존 HTML 병원 홈페이지에 그누보드5를 적용해 공지사항을 관리자 화면에서 관리할 수 있도록 구현했습니다. 낯선 기술을 학습하고 게시판 연동과 서버 배포 과정에서 발생한 오류를 해결한 과정을 정리했습니다.",
+            image: "./img/hospital_visual_03.jpg",
+            alt: "선수촌병원 게시판 CMS 연동 화면",
+            link: "https://app.notion.com/p/41506f4560de81439742d468bea0f03a",
+            linkLabel: "View Case Study"
         }
     ];
 
@@ -84,8 +94,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <div class="mini_study_text">
                     <p class="mini_study_category">${escapeHTML(study.category)}</p>
                     <p class="mini_project_description">${escapeHTML(study.description)}</p>
-                    <a class="mini_study_footer" href="https://app.notion.com/p/42206f4560de8196b2a9daaff6b45dfe?source=copy_link" target="_blank" rel="noopener noreferrer">
-                        View Design Process ↗
+                    <a class="mini_study_footer" href="${escapeHTML(study.link)}" target="_blank" rel="noopener noreferrer">
+                        ${escapeHTML(study.linkLabel)} ↗
                     </a>
                 </div>
             </div>
@@ -97,23 +107,42 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         const projects = await response.json();
 
-        const order = ["project_bingrae", "project_hospital", "project_tissot", "project_jeep", "project_innisfree"];
-        const orderedProjects = order.map((id) => projects.find((project) => project.id === id)).filter(Boolean);
+        const order = [
+            "project_bingrae",
+            "project_hospital",
+            "project_tissot",
+            "project_jeep",
+            "project_innisfree"
+        ];
+
+        const orderedProjects = order
+            .map((id) => projects.find((project) => project.id === id))
+            .filter(Boolean);
+
         const selectedProjects = orderedProjects.slice(0, 2);
         const otherProjects = orderedProjects.slice(2);
 
-        const menuItem = (project, number) => `<li><a href="#${escapeHTML(project.id)}" class="menu_intro">${String(number).padStart(2, "0")}. ${escapeHTML(project.menu)}</a></li>`;
+        const menuItem = (project, number) => `
+            <li>
+                <a href="#${escapeHTML(project.id)}" class="menu_intro">
+                    ${String(number).padStart(2, "0")}. ${escapeHTML(project.menu)}
+                </a>
+            </li>`;
 
-        menu.innerHTML = selectedProjects.map((project, index) => menuItem(project, index + 1)).join("") +
+        menu.innerHTML = selectedProjects
+            .map((project, index) => menuItem(project, index + 1))
+            .join("") +
             '<li><a href="#mini_projects" class="menu_intro">03. Mini Projects</a></li>';
 
-        document.getElementById("other_project_menu").innerHTML = otherProjects.map((project, index) => menuItem(project, index + 4)).join("");
+        document.getElementById("other_project_menu").innerHTML = otherProjects
+            .map((project, index) => menuItem(project, index + 4))
+            .join("");
 
         const miniSection = `<section id="mini_projects" class="page_section">
             <div class="mini_project_wrap radius_20 padding_40">
                 <div class="mini_project_header">
                     <h3>Mini Projects</h3>
-                    <span>Design Studies</span>
+                    <span>Design / Development Studies</span>
                 </div>
                 <div class="mini_study_list">
                     ${studies.map(renderStudy).join("")}
@@ -121,12 +150,18 @@ document.addEventListener("DOMContentLoaded", async () => {
             </div>
         </section>`;
 
-        container.innerHTML = selectedProjects.map(renderProject).join("\n") +
+        container.innerHTML =
+            selectedProjects.map(renderProject).join("\n") +
             miniSection +
             otherProjects.map(renderProject).join("\n");
 
-        if (location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)))) {
-            document.getElementById(decodeURIComponent(location.hash.slice(1))).scrollIntoView();
+        if (location.hash) {
+            const targetId = decodeURIComponent(location.hash.slice(1));
+            const target = document.getElementById(targetId);
+
+            if (target) {
+                target.scrollIntoView();
+            }
         }
     } catch (error) {
         console.error("프로젝트 데이터를 불러오지 못했습니다.", error);
