@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             title: "Hospital CMS",
             category: "PHP / MySQL / Gnuboard5",
             description: "기존 HTML 병원 홈페이지에 그누보드5를 적용해 공지사항을 관리자 화면에서 관리할 수 있도록 구현했습니다. 낯선 기술을 학습하고 게시판 연동과 서버 배포 과정에서 발생한 오류를 해결한 과정을 정리했습니다.",
-            image: "./img/hospital_visual_03.jpg",
+            image: "./img/portfolio_study_01.jpg",
             alt: "선수촌병원 게시판 CMS 연동 화면",
             link: "https://app.notion.com/p/41506f4560de81439742d468bea0f03a",
             linkLabel: "View Case Study"
